@@ -2,14 +2,14 @@
 ---
 在学习node过程中所敲的一些demo会放到这里。
 ### 目录：
-
+```
 ├── node-demo
 ├── nodetests
 └── readme.md
-
+```
 * 其中node-demo是一个express4.X所生成的框架
 项目结构为：
-
+```
 .
 ├── app.js
 ├── bin
@@ -80,7 +80,7 @@
 └── views
     ├── error.ejs
     └── index.ejs
-
+```
 * nodetests是平时跟着教程所敲的小demo，主要是一些功能的实践
 
 好好学习，天天向上！
