@@ -18,21 +18,21 @@ router.get('/user/:username',function(req,res){
   res.send('user:'+req.params.username);
 })
 router.post('/post',function(req,res){
-  res.send('post success')
+  res.send('post success'+ new Date().toString())
 })
-router.get('reg',function(req,res){
-  res.send('get reg suc')
+router.get('/reg',function(req,res){
+  res.send('get reg suc'+ new Date().toString())
 })
-router.post('reg',function(req,reg){
-  res.send('doreg success')
+router.post('/reg',function(req,reg){
+  res.send('doreg success'+ new Date().toString())
 })
-router.get('login',function(req,res){
-  res.send('get log succ')
+router.get('/login',function(req,res){
+  res.send('get log succ'+ new Date().toString())
 })
-router.post('login',function(req,res){
-  res.send('done login')
+router.post('/login',function(req,res){
+  res.send('done login'+ new Date().toString())
 })
-router.get('logout',function(req,res){
-  res.send('logout')
+router.get('/logout',function(req,res){
+  res.send('logout'+ new Date().toString())
 })
 module.exports = router;
