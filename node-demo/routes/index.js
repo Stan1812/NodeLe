@@ -17,7 +17,15 @@ router.get('/hello',function(req,res){
 router.get('/user/:username',function(req,res){
   res.send('user:'+req.params.username);
 })
+router.get('/post',function(req,res){
+  res.render('post',{
+    title:'发布'
+  })
+})
 router.post('/post',function(req,res){
+  res.render('post',{
+    title:'发布'
+  })
   res.send('post success'+ new Date().toString())
 })
 router.get('/reg',function(req,res){
@@ -27,6 +35,9 @@ router.post('/reg',function(req,reg){
   res.send('doreg success'+ new Date().toString())
 })
 router.get('/login',function(req,res){
+  res.render('login',{
+    title:'登录'
+  })
   res.send('get log succ'+ new Date().toString())
 })
 router.post('/login',function(req,res){

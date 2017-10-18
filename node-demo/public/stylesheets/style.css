@@ -6,3 +6,12 @@
 a {
   color: #00B7FF;
 }*/
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+}
