@@ -79,7 +79,10 @@
 │   └── users.js
 └── views
     ├── error.ejs
-    └── index.ejs
+    ├── index.ejs
+    ├── layout.ejs
+    ├── list.ejs
+    └── listitem.ejs
 ```
 * nodetests是平时跟着教程所敲的小demo，主要是一些功能的实践
 
