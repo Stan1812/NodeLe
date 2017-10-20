@@ -10,6 +10,21 @@ var users = require('./routes/users');
 
 var app = express();
 
+var mongoose = require('mongoose');            
+
+mongoose.connect('mongodb://localhost/test')     //连接本地数据库
+
+var db = mongoose.connection;
+
+// 连接成功
+db.on('open', function(){
+    console.log('MongoDB Connection Successed');
+    console.log(db)
+});
+// 连接失败
+db.on('error', function(){
+    console.log('MongoDB Connection Error');
+});
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
