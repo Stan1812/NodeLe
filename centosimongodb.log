@@ -1,0 +1,1731 @@
+
+依赖关系解决
+
+===============================================================================================================================================================================================
+ Package                                                  架构                              版本                                                      源                                  大小
+===============================================================================================================================================================================================
+正在安装:
+ NetworkManager                                           x86_64                            1:1.8.0-9.el7                                             os                                 1.6 M
+      替换  NetworkManager.x86_64 1:1.0.6-31.el7_2
+ NetworkManager-ppp                                       x86_64                            1:1.8.0-9.el7                                             os                                 157 k
+      替换  NetworkManager.x86_64 1:1.0.6-31.el7_2
+ grub2                                                    x86_64                            1:2.02-0.64.el7.centos                                    os                                  28 k
+      替换  grub2.x86_64 1:2.02-0.34.el7.centos
+ grub2-tools                                              x86_64                            1:2.02-0.64.el7.centos                                    os                                 1.7 M
+      替换  grub2-tools.x86_64 1:2.02-0.34.el7.centos
+ grub2-tools-efi                                          x86_64                            1:2.02-0.64.el7.centos                                    os                                 412 k
+      替换  grub2-tools.x86_64 1:2.02-0.34.el7.centos
+ grub2-tools-extra                                        x86_64                            1:2.02-0.64.el7.centos                                    os                                 992 k
+      替换  grub2-tools.x86_64 1:2.02-0.34.el7.centos
+ grub2-tools-minimal                                      x86_64                            1:2.02-0.64.el7.centos                                    os                                 169 k
+      替换  grub2-tools.x86_64 1:2.02-0.34.el7.centos
+ kernel                                                   x86_64                            3.10.0-693.2.2.el7                                        updates                             43 M
+ python-gobject-base                                      x86_64                            3.22.0-1.el7                                              os                                 294 k
+      替换  pygobject3-base.x86_64 3.14.0-3.el7
+ rdma-core                                                i686                              13-7.el7                                                  os                                  43 k
+      替换  rdma.noarch 7.2_4.1_rc6-2.el7
+ rdma-core                                                x86_64                            13-7.el7                                                  os                                  43 k
+      替换  rdma.noarch 7.2_4.1_rc6-2.el7
+正在更新:
+ NetworkManager-libnm                                     x86_64                            1:1.8.0-9.el7                                             os                                 1.2 M
+ NetworkManager-team                                      x86_64                            1:1.8.0-9.el7                                             os                                 156 k
+ NetworkManager-tui                                       x86_64                            1:1.8.0-9.el7                                             os                                 224 k
+ abrt-libs                                                x86_64                            2.1.11-48.el7.centos                                      os                                 108 k
+ acpid                                                    x86_64                            2.0.19-8.el7                                              os                                  68 k
+ alsa-lib                                                 x86_64                            1.1.3-3.el7                                               os                                 421 k
+ alsa-tools-firmware                                      x86_64                            1.1.0-1.el7                                               os                                  35 k
+ at                                                       x86_64                            3.1.13-22.el7                                             os                                  51 k
+ audit                                                    x86_64                            2.7.6-3.el7                                               os                                 242 k
+ audit-libs                                               x86_64                            2.7.6-3.el7                                               os                                  96 k
+ augeas-libs                                              x86_64                            1.4.0-2.el7_4.1                                           updates                            355 k
+ authconfig                                               x86_64                            6.2.8-30.el7                                              os                                 424 k
+ avahi-autoipd                                            x86_64                            0.6.31-17.el7                                             os                                  39 k
+ avahi-libs                                               x86_64                            0.6.31-17.el7                                             os                                  61 k
+ bash                                                     x86_64                            4.2.46-29.el7_4                                           updates                            1.0 M
+ bind-libs                                                x86_64                            32:9.9.4-51.el7                                           updates                            1.0 M
+ bind-libs-lite                                           x86_64                            32:9.9.4-51.el7                                           updates                            732 k
+ bind-license                                             noarch                            32:9.9.4-51.el7                                           updates                             84 k
+ bind-utils                                               x86_64                            32:9.9.4-51.el7                                           updates                            203 k
+ binutils                                                 x86_64                            2.25.1-32.base.el7_4.1                                    updates                            5.4 M
+ blktrace                                                 x86_64                            1.0.5-8.el7                                               os                                 134 k
+ btrfs-progs                                              x86_64                            4.9.1-1.el7                                               os                                 678 k
+ ca-certificates                                          noarch                            2017.2.14-71.el7                                          os                                 472 k
+ centos-release                                           x86_64                            7-4.1708.el7.centos                                       os                                  23 k
+ chkconfig                                                x86_64                            1.7.4-1.el7                                               os                                 181 k
+ chrony                                                   x86_64                            3.1-2.el7.centos                                          os                                 237 k
+ coreutils                                                x86_64                            8.22-18.el7                                               os                                 3.3 M
+ cpio                                                     x86_64                            2.11-25.el7_4                                             updates                            210 k
+ cpp                                                      x86_64                            4.8.5-16.el7                                              os                                 5.9 M
+ crda                                                     x86_64                            3.13_2016.02.08-1.el7                                     os                                  38 k
+ cronie                                                   x86_64                            1.4.11-17.el7                                             os                                  91 k
+ cronie-anacron                                           x86_64                            1.4.11-17.el7                                             os                                  35 k
+ cryptsetup                                               x86_64                            1.7.4-3.el7                                               os                                 128 k
+ cryptsetup-libs                                          x86_64                            1.7.4-3.el7                                               os                                 222 k
+ curl                                                     x86_64                            7.29.0-42.el7                                             os                                 267 k
+ cyrus-sasl                                               x86_64                            2.1.26-21.el7                                             os                                  88 k
+ cyrus-sasl-devel                                         x86_64                            2.1.26-21.el7                                             os                                 310 k
+ cyrus-sasl-lib                                           x86_64                            2.1.26-21.el7                                             os                                 155 k
+ cyrus-sasl-plain                                         x86_64                            2.1.26-21.el7                                             os                                  38 k
+ dbus                                                     x86_64                            1:1.6.12-17.el7                                           os                                 307 k
+ dbus-libs                                                x86_64                            1:1.6.12-17.el7                                           os                                 151 k
+ device-mapper                                            x86_64                            7:1.02.140-8.el7                                          os                                 280 k
+ device-mapper-event                                      x86_64                            7:1.02.140-8.el7                                          os                                 180 k
+ device-mapper-event-libs                                 x86_64                            7:1.02.140-8.el7                                          os                                 179 k
+ device-mapper-libs                                       x86_64                            7:1.02.140-8.el7                                          os                                 312 k
+ device-mapper-persistent-data                            x86_64                            0.7.0-0.1.rc6.el7                                         os                                 400 k
+ dhclient                                                 x86_64                            12:4.2.5-58.el7.centos                                    os                                 282 k
+ dhcp-common                                              x86_64                            12:4.2.5-58.el7.centos                                    os                                 174 k
+ dhcp-libs                                                x86_64                            12:4.2.5-58.el7.centos                                    os                                 130 k
+ dmidecode                                                x86_64                            1:3.0-5.el7                                               os                                  88 k
+ dnsmasq                                                  x86_64                            2.76-2.el7_4.2                                            updates                            277 k
+ dracut                                                   x86_64                            033-502.el7                                               os                                 321 k
+ dracut-config-rescue                                     x86_64                            033-502.el7                                               os                                  55 k
+ dracut-network                                           x86_64                            033-502.el7                                               os                                  97 k
+ dyninst                                                  x86_64                            9.3.1-1.el7                                               os                                 3.5 M
+ e2fsprogs                                                x86_64                            1.42.9-10.el7                                             os                                 698 k
+ e2fsprogs-libs                                           x86_64                            1.42.9-10.el7                                             os                                 166 k
+ ebtables                                                 x86_64                            2.0.10-15.el7                                             os                                 123 k
+ elfutils                                                 x86_64                            0.168-8.el7                                               os                                 279 k
+ elfutils-libelf                                          x86_64                            0.168-8.el7                                               os                                 191 k
+ elfutils-libs                                            x86_64                            0.168-8.el7                                               os                                 264 k
+ ethtool                                                  x86_64                            2:4.8-1.el7                                               os                                 123 k
+ expat                                                    x86_64                            2.1.0-10.el7_3                                            os                                  81 k
+ expat-devel                                              x86_64                            2.1.0-10.el7_3                                            os                                  57 k
+ file                                                     x86_64                            5.11-33.el7                                               os                                  57 k
+ file-libs                                                x86_64                            5.11-33.el7                                               os                                 340 k
+ filesystem                                               x86_64                            3.2-21.el7                                                os                                 1.0 M
+ fipscheck                                                x86_64                            1.4.1-6.el7                                               os                                  21 k
+ fipscheck-lib                                            x86_64                            1.4.1-6.el7                                               os                                  11 k
+ firewalld                                                noarch                            0.4.4.4-6.el7                                             os                                 416 k
+ freetype                                                 x86_64                            2.4.11-15.el7                                             os                                 392 k
+ freetype-devel                                           x86_64                            2.4.11-15.el7                                             os                                 356 k
+ gawk                                                     x86_64                            4.0.2-4.el7_3.1                                           os                                 874 k
+ gcc                                                      x86_64                            4.8.5-16.el7                                              os                                  16 M
+ gcc-c++                                                  x86_64                            4.8.5-16.el7                                              os                                 7.2 M
+ gdb                                                      x86_64                            7.6.1-100.el7                                             os                                 2.4 M
+ gettext                                                  x86_64                            0.19.8.1-2.el7                                            os                                 1.0 M
+ gettext-libs                                             x86_64                            0.19.8.1-2.el7                                            os                                 501 k
+ glib-networking                                          x86_64                            2.50.0-1.el7                                              os                                 131 k
+ glib2                                                    i686                              2.50.3-3.el7                                              os                                 2.3 M
+ glib2                                                    x86_64                            2.50.3-3.el7                                              os                                 2.3 M
+ glibc                                                    i686                              2.17-196.el7                                              os                                 4.2 M
+ glibc                                                    x86_64                            2.17-196.el7                                              os                                 3.6 M
+ glibc-common                                             x86_64                            2.17-196.el7                                              os                                  11 M
+ glibc-devel                                              x86_64                            2.17-196.el7                                              os                                 1.1 M
+ glibc-headers                                            x86_64                            2.17-196.el7                                              os                                 675 k
+ glibc-static                                             i686                              2.17-196.el7                                              os                                 1.2 M
+ glibc-static                                             x86_64                            2.17-196.el7                                              os                                 1.5 M
+ gmp                                                      x86_64                            1:6.0.0-15.el7                                            os                                 281 k
+ gnupg2                                                   x86_64                            2.0.22-4.el7                                              os                                 1.5 M
+ gnutls                                                   x86_64                            3.3.26-9.el7                                              os                                 677 k
+ gobject-introspection                                    x86_64                            1.50.0-1.el7                                              os                                 236 k
+ grep                                                     x86_64                            2.20-3.el7                                                os                                 344 k
+ grubby                                                   x86_64                            8.28-23.el7                                               os                                  70 k
+ gsettings-desktop-schemas                                x86_64                            3.22.0-1.el7                                              os                                 550 k
+ gzip                                                     x86_64                            1.5-9.el7                                                 os                                 129 k
+ httpd                                                    x86_64                            2.4.6-67.el7.centos.5                                     updates                            2.7 M
+ httpd-devel                                              x86_64                            2.4.6-67.el7.centos.5                                     updates                            194 k
+ httpd-tools                                              x86_64                            2.4.6-67.el7.centos.5                                     updates                             88 k
+ hunspell                                                 x86_64                            1.3.2-15.el7                                              os                                 223 k
+ hunspell-en                                              noarch                            0.20121024-6.el7                                          os                                 194 k
+ hunspell-en-GB                                           noarch                            0.20121024-6.el7                                          os                                 239 k
+ hunspell-en-US                                           noarch                            0.20121024-6.el7                                          os                                 190 k
+ hwdata                                                   x86_64                            0.252-8.6.el7                                             os                                 2.2 M
+ initscripts                                              x86_64                            9.49.39-1.el7                                             os                                 435 k
+ iproute                                                  x86_64                            3.10.0-87.el7                                             os                                 651 k
+ iprutils                                                 x86_64                            2.4.14.1-1.el7                                            os                                 243 k
+ iptables                                                 x86_64                            1.4.21-18.0.1.el7.centos                                  os                                 428 k
+ iputils                                                  x86_64                            20160308-10.el7                                           os                                 148 k
+ iw                                                       x86_64                            4.3-1.el7                                                 os                                  70 k
+ iwl105-firmware                                          noarch                            18.168.6.1-56.el7                                         os                                 236 k
+ iwl135-firmware                                          noarch                            18.168.6.1-56.el7                                         os                                 245 k
+ iwl2000-firmware                                         noarch                            18.168.6.1-56.el7                                         os                                 239 k
+ iwl2030-firmware                                         noarch                            18.168.6.1-56.el7                                         os                                 247 k
+ iwl3160-firmware                                         noarch                            22.0.7.0-56.el7                                           os                                 1.5 M
+ iwl6000g2b-firmware                                      noarch                            17.168.5.2-56.el7                                         os                                 312 k
+ iwl7260-firmware                                         noarch                            22.0.7.0-56.el7                                           os                                 1.1 M
+ iwl7265-firmware                                         noarch                            22.0.7.0-56.el7                                           os                                 3.5 M
+ jansson                                                  x86_64                            2.10-1.el7                                                os                                  37 k
+ kbd                                                      x86_64                            1.15.5-13.el7                                             os                                 346 k
+ kbd-legacy                                               noarch                            1.15.5-13.el7                                             os                                 465 k
+ kbd-misc                                                 noarch                            1.15.5-13.el7                                             os                                 1.4 M
+ kernel-headers                                           x86_64                            3.10.0-693.2.2.el7                                        updates                            6.0 M
+ kernel-tools                                             x86_64                            3.10.0-693.2.2.el7                                        updates                            5.1 M
+ kernel-tools-libs                                        x86_64                            3.10.0-693.2.2.el7                                        updates                            5.0 M
+ kexec-tools                                              x86_64                            2.0.14-17.el7                                             os                                 332 k
+ kmod                                                     x86_64                            20-15.el7_4.2                                             updates                            119 k
+ kmod-libs                                                x86_64                            20-15.el7_4.2                                             updates                             49 k
+ kpartx                                                   x86_64                            0.4.9-111.el7                                             os                                  72 k
+ kpatch                                                   noarch                            0.4.0-1.el7                                               os                                 8.8 k
+ krb5-devel                                               x86_64                            1.15.1-8.el7                                              os                                 266 k
+ krb5-libs                                                x86_64                            1.15.1-8.el7                                              os                                 747 k
+ ledmon                                                   x86_64                            0.80-2.el7                                                os                                  58 k
+ libblkid                                                 x86_64                            2.23.2-43.el7                                             os                                 176 k
+ libcap                                                   x86_64                            2.22-9.el7                                                os                                  47 k
+ libcom_err                                               x86_64                            1.42.9-10.el7                                             os                                  40 k
+ libcom_err-devel                                         x86_64                            1.42.9-10.el7                                             os                                  31 k
+ libcroco                                                 x86_64                            0.6.11-1.el7                                              os                                 105 k
+ libcurl                                                  x86_64                            7.29.0-42.el7                                             os                                 219 k
+ libcurl-devel                                            x86_64                            7.29.0-42.el7                                             os                                 300 k
+ libdb                                                    x86_64                            5.3.21-20.el7                                             os                                 719 k
+ libdb-devel                                              x86_64                            5.3.21-20.el7                                             os                                  38 k
+ libdb-utils                                              x86_64                            5.3.21-20.el7                                             os                                 132 k
+ libdrm                                                   x86_64                            2.4.74-1.el7                                              os                                 146 k
+ libffi                                                   i686                              3.0.13-18.el7                                             os                                  27 k
+ libffi                                                   x86_64                            3.0.13-18.el7                                             os                                  30 k
+ libgcc                                                   i686                              4.8.5-16.el7                                              os                                 106 k
+ libgcc                                                   x86_64                            4.8.5-16.el7                                              os                                  98 k
+ libgcrypt                                                x86_64                            1.5.3-14.el7                                              os                                 263 k
+ libgomp                                                  x86_64                            4.8.5-16.el7                                              os                                 154 k
+ libgudev1                                                x86_64                            219-42.el7_4.1                                            updates                             83 k
+ libmount                                                 x86_64                            2.23.2-43.el7                                             os                                 177 k
+ libndp                                                   x86_64                            1.2-7.el7                                                 os                                  31 k
+ libnetfilter_conntrack                                   x86_64                            1.0.6-1.el7_3                                             os                                  55 k
+ libnl3                                                   x86_64                            3.2.28-4.el7                                              os                                 278 k
+ libnl3-cli                                               x86_64                            3.2.28-4.el7                                              os                                 160 k
+ libpcap                                                  x86_64                            14:1.5.3-9.el7                                            os                                 138 k
+ libpciaccess                                             x86_64                            0.13.4-3.el7_3                                            os                                  26 k
+ libproxy                                                 x86_64                            0.4.11-10.el7                                             os                                  64 k
+ libreport                                                x86_64                            2.1.11-38.el7.centos                                      os                                 451 k
+ libreport-centos                                         x86_64                            2.1.11-38.el7.centos                                      os                                  49 k
+ libreport-cli                                            x86_64                            2.1.11-38.el7.centos                                      os                                  51 k
+ libreport-filesystem                                     x86_64                            2.1.11-38.el7.centos                                      os                                  39 k
+ libreport-plugin-mailx                                   x86_64                            2.1.11-38.el7.centos                                      os                                  65 k
+ libreport-plugin-mantisbt                                x86_64                            2.1.11-38.el7.centos                                      os                                  71 k
+ libreport-plugin-rhtsupport                              x86_64                            2.1.11-38.el7.centos                                      os                                  73 k
+ libreport-plugin-ureport                                 x86_64                            2.1.11-38.el7.centos                                      os                                  57 k
+ libreport-python                                         x86_64                            2.1.11-38.el7.centos                                      os                                  68 k
+ libreport-web                                            x86_64                            2.1.11-38.el7.centos                                      os                                  56 k
+ libselinux                                               i686                              2.5-11.el7                                                os                                 165 k
+ libselinux                                               x86_64                            2.5-11.el7                                                os                                 162 k
+ libselinux-devel                                         x86_64                            2.5-11.el7                                                os                                 186 k
+ libselinux-python                                        x86_64                            2.5-11.el7                                                os                                 234 k
+ libselinux-utils                                         x86_64                            2.5-11.el7                                                os                                 151 k
+ libsemanage                                              x86_64                            2.5-8.el7                                                 os                                 145 k
+ libsepol                                                 x86_64                            2.5-6.el7                                                 os                                 288 k
+ libsepol-devel                                           x86_64                            2.5-6.el7                                                 os                                  74 k
+ libsoup                                                  x86_64                            2.56.0-4.el7_4                                            updates                            398 k
+ libss                                                    x86_64                            1.42.9-10.el7                                             os                                  45 k
+ libsss_idmap                                             x86_64                            1.15.2-50.el7_4.2                                         updates                            131 k
+ libsss_nss_idmap                                         x86_64                            1.15.2-50.el7_4.2                                         updates                            129 k
+ libstdc++                                                i686                              4.8.5-16.el7                                              os                                 314 k
+ libstdc++                                                x86_64                            4.8.5-16.el7                                              os                                 301 k
+ libstdc++-devel                                          x86_64                            4.8.5-16.el7                                              os                                 1.5 M
+ libstoragemgmt                                           x86_64                            1.4.0-3.el7                                               os                                 238 k
+ libstoragemgmt-python                                    noarch                            1.4.0-3.el7                                               os                                 153 k
+ libtasn1                                                 x86_64                            4.10-1.el7                                                os                                 320 k
+ libteam                                                  x86_64                            1.25-5.el7                                                os                                  47 k
+ libtirpc                                                 x86_64                            0.2.4-0.10.el7                                            os                                  88 k
+ libusbx                                                  x86_64                            1.0.20-1.el7                                              os                                  61 k
+ libuuid                                                  x86_64                            2.23.2-43.el7                                             os                                  79 k
+ linux-firmware                                           noarch                            20170606-56.gitc990aae.el7                                os                                  35 M
+ logrotate                                                x86_64                            3.8.6-14.el7                                              os                                  69 k
+ lsscsi                                                   x86_64                            0.27-6.el7                                                os                                  47 k
+ lua                                                      x86_64                            5.1.4-15.el7                                              os                                 201 k
+ lvm2                                                     x86_64                            7:2.02.171-8.el7                                          os                                 1.3 M
+ lvm2-libs                                                x86_64                            7:2.02.171-8.el7                                          os                                 1.0 M
+ mailx                                                    x86_64                            12.5-16.el7                                               os                                 244 k
+ make                                                     x86_64                            1:3.82-23.el7                                             os                                 420 k
+ mlocate                                                  x86_64                            0.26-6.el7                                                os                                 113 k
+ mozjs17                                                  x86_64                            17.0.0-19.el7                                             os                                 1.4 M
+ ncurses                                                  x86_64                            5.9-14.20130511.el7_4                                     updates                            304 k
+ ncurses-base                                             noarch                            5.9-14.20130511.el7_4                                     updates                             68 k
+ ncurses-libs                                             x86_64                            5.9-14.20130511.el7_4                                     updates                            316 k
+ net-tools                                                x86_64                            2.0-0.22.20131004git.el7                                  os                                 305 k
+ nettle                                                   x86_64                            2.7.1-8.el7                                               os                                 327 k
+ nspr                                                     x86_64                            4.13.1-1.0.el7_3                                          os                                 126 k
+ nss                                                      x86_64                            3.28.4-12.el7_4                                           updates                            848 k
+ nss-softokn                                              x86_64                            3.28.3-8.el7_4                                            updates                            310 k
+ nss-softokn-freebl                                       i686                              3.28.3-8.el7_4                                            updates                            199 k
+ nss-softokn-freebl                                       x86_64                            3.28.3-8.el7_4                                            updates                            214 k
+ nss-sysinit                                              x86_64                            3.28.4-12.el7_4                                           updates                             60 k
+ nss-tools                                                x86_64                            3.28.4-12.el7_4                                           updates                            500 k
+ nss-util                                                 x86_64                            3.28.4-3.el7                                              os                                  73 k
+ ntp                                                      x86_64                            4.2.6p5-25.el7.centos.2                                   os                                 547 k
+ ntpdate                                                  x86_64                            4.2.6p5-25.el7.centos.2                                   os                                  86 k
+ ntsysv                                                   x86_64                            1.7.4-1.el7                                               os                                  38 k
+ openldap                                                 x86_64                            2.4.44-5.el7                                              os                                 354 k
+ openldap-devel                                           x86_64                            2.4.44-5.el7                                              os                                 801 k
+ openssh                                                  x86_64                            7.4p1-12.el7_4                                            updates                            509 k
+ openssh-clients                                          x86_64                            7.4p1-12.el7_4                                            updates                            654 k
+ openssh-server                                           x86_64                            7.4p1-12.el7_4                                            updates                            458 k
+ openssl                                                  x86_64                            1:1.0.2k-8.el7                                            os                                 492 k
+ openssl-devel                                            x86_64                            1:1.0.2k-8.el7                                            os                                 1.5 M
+ openssl-libs                                             x86_64                            1:1.0.2k-8.el7                                            os                                 1.2 M
+ os-prober                                                x86_64                            1.58-9.el7                                                os                                  42 k
+ p11-kit                                                  x86_64                            0.23.5-3.el7                                              os                                 252 k
+ p11-kit-trust                                            x86_64                            0.23.5-3.el7                                              os                                 129 k
+ pam                                                      x86_64                            1.1.8-18.el7                                              os                                 717 k
+ parted                                                   x86_64                            3.1-28.el7                                                os                                 607 k
+ pciutils                                                 x86_64                            3.5.1-2.el7                                               os                                  93 k
+ pciutils-libs                                            x86_64                            3.5.1-2.el7                                               os                                  46 k
+ pcre                                                     i686                              8.32-17.el7                                               os                                 420 k
+ pcre                                                     x86_64                            8.32-17.el7                                               os                                 422 k
+ pcre-devel                                               x86_64                            8.32-17.el7                                               os                                 480 k
+ perl                                                     x86_64                            4:5.16.3-292.el7                                          os                                 8.0 M
+ perl-Pod-Escapes                                         noarch                            1:1.04-292.el7                                            os                                  51 k
+ perl-Socket                                              x86_64                            2.010-4.el7                                               os                                  49 k
+ perl-libs                                                x86_64                            4:5.16.3-292.el7                                          os                                 688 k
+ perl-macros                                              x86_64                            4:5.16.3-292.el7                                          os                                  43 k
+ pinentry                                                 x86_64                            0.8.1-17.el7                                              os                                  73 k
+ plymouth                                                 x86_64                            0.8.9-0.28.20140113.el7.centos                            os                                 116 k
+ plymouth-core-libs                                       x86_64                            0.8.9-0.28.20140113.el7.centos                            os                                 107 k
+ plymouth-scripts                                         x86_64                            0.8.9-0.28.20140113.el7.centos                            os                                  38 k
+ policycoreutils                                          x86_64                            2.5-17.1.el7                                              os                                 858 k
+ polkit                                                   x86_64                            0.112-12.el7_3                                            os                                 167 k
+ procps-ng                                                x86_64                            3.3.10-16.el7                                             os                                 289 k
+ psmisc                                                   x86_64                            22.20-15.el7                                              os                                 141 k
+ python                                                   x86_64                            2.7.5-58.el7                                              os                                  91 k
+ python-dmidecode                                         x86_64                            3.12.2-1.el7                                              os                                  85 k
+ python-libs                                              x86_64                            2.7.5-58.el7                                              os                                 5.6 M
+ python-perf                                              x86_64                            3.10.0-693.2.2.el7                                        updates                            5.1 M
+ python-pycurl                                            x86_64                            7.19.0-19.el7                                             os                                  80 k
+ python-pyudev                                            noarch                            0.15-9.el7                                                os                                  55 k
+ python-urlgrabber                                        noarch                            3.10-8.el7                                                os                                 108 k
+ quota                                                    x86_64                            1:4.01-14.el7                                             os                                 179 k
+ quota-nls                                                noarch                            1:4.01-14.el7                                             os                                  90 k
+ readline                                                 x86_64                            6.2-10.el7                                                os                                 193 k
+ rpcbind                                                  x86_64                            0.2.0-42.el7                                              os                                  59 k
+ rpm                                                      x86_64                            4.11.3-25.el7                                             os                                 1.2 M
+ rpm-build-libs                                           x86_64                            4.11.3-25.el7                                             os                                 104 k
+ rpm-libs                                                 x86_64                            4.11.3-25.el7                                             os                                 275 k
+ rpm-python                                               x86_64                            4.11.3-25.el7                                             os                                  81 k
+ rsync                                                    x86_64                            3.0.9-18.el7                                              os                                 360 k
+ rsyslog                                                  x86_64                            8.24.0-12.el7                                             os                                 605 k
+ satyr                                                    x86_64                            0.13-14.el7                                               os                                 538 k
+ scl-utils                                                x86_64                            20130529-18.el7_4                                         updates                             24 k
+ selinux-policy                                           noarch                            3.13.1-166.el7_4.4                                        updates                            436 k
+ selinux-policy-targeted                                  noarch                            3.13.1-166.el7_4.4                                        updates                            6.5 M
+ setup                                                    noarch                            2.8.71-7.el7                                              os                                 165 k
+ sg3_utils-libs                                           x86_64                            1.37-12.el7                                               os                                  64 k
+ shadow-utils                                             x86_64                            2:4.1.5.1-24.el7                                          os                                 1.1 M
+ shared-mime-info                                         x86_64                            1.8-3.el7                                                 os                                 312 k
+ sos                                                      noarch                            3.4-6.el7.centos                                          os                                 381 k
+ sssd-client                                              x86_64                            1.15.2-50.el7_4.2                                         updates                            185 k
+ strace                                                   x86_64                            4.12-4.el7                                                os                                 459 k
+ sudo                                                     x86_64                            1.8.19p2-11.el7_4                                         updates                            1.1 M
+ systemd                                                  x86_64                            219-42.el7_4.1                                            updates                            5.2 M
+ systemd-libs                                             x86_64                            219-42.el7_4.1                                            updates                            375 k
+ systemd-python                                           x86_64                            219-42.el7_4.1                                            updates                            116 k
+ systemd-sysv                                             x86_64                            219-42.el7_4.1                                            updates                             70 k
+ systemtap-runtime                                        x86_64                            3.1-3.el7                                                 os                                 394 k
+ tar                                                      x86_64                            2:1.26-32.el7                                             os                                 845 k
+ tcpdump                                                  x86_64                            14:4.9.0-5.el7                                            os                                 415 k
+ tcsh                                                     x86_64                            6.18.01-15.el7                                            os                                 338 k
+ teamd                                                    x86_64                            1.25-5.el7                                                os                                 111 k
+ traceroute                                               x86_64                            3:2.0.22-2.el7                                            os                                  59 k
+ trousers                                                 x86_64                            0.3.14-2.el7                                              os                                 289 k
+ tuned                                                    noarch                            2.8.0-5.el7                                               os                                 234 k
+ tzdata                                                   noarch                            2017b-1.el7                                               os                                 443 k
+ unzip                                                    x86_64                            6.0-16.el7                                                os                                 169 k
+ usb_modeswitch                                           x86_64                            2.4.0-5.el7                                               os                                 163 k
+ usb_modeswitch-data                                      noarch                            20160612-2.el7                                            os                                  94 k
+ util-linux                                               x86_64                            2.23.2-43.el7                                             os                                 2.0 M
+ vim-common                                               x86_64                            2:7.4.160-2.el7                                           os                                 5.9 M
+ vim-enhanced                                             x86_64                            2:7.4.160-2.el7                                           os                                 1.0 M
+ vim-filesystem                                           x86_64                            2:7.4.160-2.el7                                           os                                 9.8 k
+ vim-minimal                                              x86_64                            2:7.4.160-2.el7                                           os                                 436 k
+ virt-what                                                x86_64                            1.13-10.el7                                               os                                  28 k
+ vsftpd                                                   x86_64                            3.0.2-22.el7                                              os                                 169 k
+ wget                                                     x86_64                            1.14-15.el7                                               os                                 547 k
+ wpa_supplicant                                           x86_64                            1:2.6-5.el7_4.1                                           updates                            1.2 M
+ xfsprogs                                                 x86_64                            4.5.0-12.el7                                              os                                 895 k
+ xz                                                       x86_64                            5.2.2-1.el7                                               os                                 229 k
+ xz-devel                                                 x86_64                            5.2.2-1.el7                                               os                                  46 k
+ xz-libs                                                  i686                              5.2.2-1.el7                                               os                                 109 k
+ xz-libs                                                  x86_64                            5.2.2-1.el7                                               os                                 103 k
+ yum                                                      noarch                            3.4.3-154.el7.centos                                      os                                 1.2 M
+ yum-langpacks                                            noarch                            0.4.2-7.el7                                               os                                  31 k
+ yum-plugin-fastestmirror                                 noarch                            1.1.31-42.el7                                             os                                  32 k
+ yum-utils                                                noarch                            1.1.31-42.el7                                             os                                 117 k
+ zip                                                      x86_64                            3.0-11.el7                                                os                                 260 k
+ zlib                                                     i686                              1.2.7-17.el7                                              os                                  91 k
+ zlib                                                     x86_64                            1.2.7-17.el7                                              os                                  90 k
+ zlib-devel                                               x86_64                            1.2.7-17.el7                                              os                                  50 k
+为依赖而安装:
+ GeoIP                                                    x86_64                            1.5.0-11.el7                                              os                                 1.1 M
+ audit-libs                                               i686                              2.7.6-3.el7                                               os                                  96 k
+ boost-date-time                                          x86_64                            1.53.0-27.el7                                             os                                  52 k
+ bzip2-libs                                               i686                              1.0.6-13.el7                                              os                                  40 k
+ cracklib                                                 i686                              2.9.0-11.el7                                              os                                  79 k
+ elfutils-default-yama-scope                              noarch                            0.168-8.el7                                               os                                  30 k
+ elfutils-libelf                                          i686                              0.168-8.el7                                               os                                 196 k
+ elfutils-libs                                            i686                              0.168-8.el7                                               os                                 285 k
+ firewalld-filesystem                                     noarch                            0.4.4.4-6.el7                                             os                                  47 k
+ grub2-common                                             noarch                            1:2.02-0.64.el7.centos                                    os                                 726 k
+ grub2-pc                                                 x86_64                            1:2.02-0.64.el7.centos                                    os                                  28 k
+ grub2-pc-modules                                         noarch                            1:2.02-0.64.el7.centos                                    os                                 843 k
+ ipset                                                    x86_64                            6.29-1.el7                                                os                                  41 k
+ ipset-libs                                               x86_64                            6.29-1.el7                                                os                                  54 k
+ libattr                                                  i686                              2.4.46-12.el7                                             os                                  18 k
+ libblkid                                                 i686                              2.23.2-43.el7                                             os                                 180 k
+ libcap                                                   i686                              2.22-9.el7                                                os                                  48 k
+ libcap-ng                                                i686                              0.7.5-4.el7                                               os                                  24 k
+ libdb                                                    i686                              5.3.21-20.el7                                             os                                 731 k
+ libfastjson                                              x86_64                            0.99.4-2.el7                                              os                                  27 k
+ libgcrypt                                                i686                              1.5.3-14.el7                                              os                                 266 k
+ libgpg-error                                             i686                              1.12-3.el7                                                os                                  87 k
+ libkadm5                                                 x86_64                            1.15.1-8.el7                                              os                                 174 k
+ libmount                                                 i686                              2.23.2-43.el7                                             os                                 176 k
+ libseccomp                                               x86_64                            2.3.1-3.el7                                               os                                  56 k
+ libsepol                                                 i686                              2.5-6.el7                                                 os                                 284 k
+ libstoragemgmt-python-clibs                              x86_64                            1.4.0-3.el7                                               os                                  18 k
+ libuuid                                                  i686                              2.23.2-43.el7                                             os                                  79 k
+ nss-pem                                                  x86_64                            1.0.3-4.el7                                               os                                  73 k
+ pam                                                      i686                              1.1.8-18.el7                                              os                                 715 k
+ python-firewall                                          noarch                            0.4.4.4-6.el7                                             os                                 325 k
+ python-linux-procfs                                      noarch                            0.4.9-3.el7                                               os                                  33 k
+ python-schedutils                                        x86_64                            0.4-6.el7                                                 os                                  21 k
+ systemd-libs                                             i686                              219-42.el7_4.1                                            updates                            376 k
+
+事务概要
+===============================================================================================================================================================================================
+安装   11 软件包 (+34 依赖软件包)
+升级  315 软件包
+
+总下载量：309 M
+Is this ok [y/d/N]: y
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+
+
+Error downloading packages:
+  lsscsi-0.27-6.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libmount-2.23.2-43.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  python-gobject-base-3.22.0-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libgudev1-219-42.el7_4.1.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  parted-3.1-28.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  rsyslog-8.24.0-12.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  python-schedutils-0.4-6.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  xfsprogs-4.5.0-12.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  pam-1.1.8-18.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  glib-networking-2.50.0-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  scl-utils-20130529-18.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  elfutils-libs-0.168-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  selinux-policy-targeted-3.13.1-166.el7_4.4.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libpciaccess-0.13.4-3.el7_3.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  hunspell-1.3.2-15.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  boost-date-time-1.53.0-27.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kpatch-0.4.0-1.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  expat-devel-2.1.0-10.el7_3.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  os-prober-1.58-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libstdc++-4.8.5-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kexec-tools-2.0.14-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gdb-7.6.1-100.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libcroco-0.6.11-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  readline-6.2-10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  btrfs-progs-4.9.1-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gnupg2-2.0.22-4.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gawk-4.0.2-4.el7_3.1.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  procps-ng-3.3.10-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libreport-python-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cpio-2.11-25.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  32:bind-libs-9.9.4-51.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libffi-3.0.13-18.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  1:NetworkManager-tui-1.8.0-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libreport-plugin-mailx-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libsoup-2.56.0-4.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  ebtables-2.0.10-15.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  avahi-autoipd-0.6.31-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  32:bind-license-9.9.4-51.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libtirpc-0.2.4-0.10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libgcc-4.8.5-16.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  libselinux-devel-2.5-11.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  dyninst-9.3.1-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  httpd-tools-2.4.6-67.el7.centos.5.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libdrm-2.4.74-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  httpd-devel-2.4.6-67.el7.centos.5.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  blktrace-1.0.5-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kmod-libs-20-15.el7_4.2.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  sudo-1.8.19p2-11.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  python-urlgrabber-3.10-8.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libselinux-python-2.5-11.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iwl7260-firmware-22.0.7.0-56.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  2:vim-minimal-7.4.160-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  python-2.7.5-58.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  elfutils-libs-0.168-8.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  ntp-4.2.6p5-25.el7.centos.2.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libgcc-4.8.5-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  trousers-0.3.14-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  chrony-3.1-2.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  httpd-2.4.6-67.el7.centos.5.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  audit-libs-2.7.6-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libstoragemgmt-1.4.0-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:NetworkManager-team-1.8.0-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  rpm-libs-4.11.3-25.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libreport-filesystem-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  GeoIP-1.5.0-11.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  2:ethtool-4.8-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  nss-tools-3.28.4-12.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  grubby-8.28-23.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libreport-plugin-rhtsupport-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  pciutils-3.5.1-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  policycoreutils-2.5-17.1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libselinux-utils-2.5-11.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  xz-libs-5.2.2-1.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  gcc-4.8.5-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libuuid-2.23.2-43.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  avahi-libs-0.6.31-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libreport-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  openssh-server-7.4p1-12.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  2:vim-enhanced-7.4.160-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libcap-ng-0.7.5-4.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  iwl6000g2b-firmware-17.168.5.2-56.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  glibc-static-2.17-196.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  1:wpa_supplicant-2.6-5.el7_4.1.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  elfutils-libelf-0.168-8.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  2:vim-filesystem-7.4.160-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  systemtap-runtime-3.1-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  at-3.1.13-22.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  systemd-sysv-219-42.el7_4.1.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:NetworkManager-1.8.0-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libsss_nss_idmap-1.15.2-50.el7_4.2.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  nss-softokn-freebl-3.28.3-8.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cronie-1.4.11-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cronie-anacron-1.4.11-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  ledmon-0.80-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libdb-5.3.21-20.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  ncurses-base-5.9-14.20130511.el7_4.noarch: [Errno 5] [Errno 12] 无法分配内存
+  hunspell-en-US-0.20121024-6.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  freetype-devel-2.4.11-15.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  mozjs17-17.0.0-19.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  teamd-1.25-5.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libsemanage-2.5-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  glibc-common-2.17-196.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  polkit-0.112-12.el7_3.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libstdc++-devel-4.8.5-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  zlib-devel-1.2.7-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  elfutils-0.168-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  tcsh-6.18.01-15.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libmount-2.23.2-43.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  openldap-2.4.44-5.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  device-mapper-persistent-data-0.7.0-0.1.rc6.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libcom_err-1.42.9-10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cryptsetup-1.7.4-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  rpm-build-libs-4.11.3-25.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libsepol-devel-2.5-6.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libcurl-7.29.0-42.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  dracut-033-502.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  e2fsprogs-libs-1.42.9-10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  dracut-config-rescue-033-502.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  bzip2-libs-1.0.6-13.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  1:grub2-tools-minimal-2.02-0.64.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  elfutils-default-yama-scope-0.168-8.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  fipscheck-1.4.1-6.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  p11-kit-0.23.5-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  pcre-devel-8.32-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kbd-legacy-1.15.5-13.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libcurl-devel-7.29.0-42.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  4:perl-5.16.3-292.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  mlocate-0.26-6.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  4:perl-libs-5.16.3-292.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  selinux-policy-3.13.1-166.el7_4.4.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libattr-2.4.46-12.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  ncurses-5.9-14.20130511.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libreport-cli-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libcap-2.22-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:make-3.82-23.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gettext-0.19.8.1-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  dnsmasq-2.76-2.el7_4.2.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  nss-3.28.4-12.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libnl3-3.2.28-4.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  audit-libs-2.7.6-3.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  32:bind-utils-9.9.4-51.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  python-perf-3.10.0-693.2.2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  python-pyudev-0.15-9.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  augeas-libs-1.4.0-2.el7_4.1.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libseccomp-2.3.1-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libproxy-0.4.11-10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  python-linux-procfs-0.4.9-3.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  alsa-lib-1.1.3-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iprutils-2.4.14.1-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  glib2-2.50.3-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kbd-1.15.5-13.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  yum-3.4.3-154.el7.centos.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libgpg-error-1.12-3.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  libcap-2.22-9.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  glib2-2.50.3-3.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  iwl105-firmware-18.168.6.1-56.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  1:perl-Pod-Escapes-1.04-292.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  wget-1.14-15.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libblkid-2.23.2-43.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  pciutils-libs-3.5.1-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  psmisc-22.20-15.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  python-pycurl-7.19.0-19.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  net-tools-2.0-0.22.20131004git.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  rpm-4.11.3-25.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libteam-1.25-5.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  linux-firmware-20170606-56.gitc990aae.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  dracut-network-033-502.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  xz-5.2.2-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cyrus-sasl-plain-2.1.26-21.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cryptsetup-libs-1.7.4-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libblkid-2.23.2-43.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  python-firewall-0.4.4.4-6.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  7:device-mapper-libs-1.02.140-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cpp-4.8.5-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:grub2-2.02-0.64.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gettext-libs-0.19.8.1-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libselinux-2.5-11.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  12:dhcp-libs-4.2.5-58.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libsss_idmap-1.15.2-50.el7_4.2.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  hunspell-en-0.20121024-6.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  rsync-3.0.9-18.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  ncurses-libs-5.9-14.20130511.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  file-libs-5.11-33.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libusbx-1.0.20-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  authconfig-6.2.8-30.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  7:device-mapper-event-1.02.140-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  2:shadow-utils-4.1.5.1-24.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  systemd-libs-219-42.el7_4.1.i686: [Errno 5] [Errno 12] 无法分配内存
+  python-libs-2.7.5-58.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  ntpdate-4.2.6p5-25.el7.centos.2.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libtasn1-4.10-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iwl2000-firmware-18.168.6.1-56.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libselinux-2.5-11.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iputils-20160308-10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gzip-1.5-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  zlib-1.2.7-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  p11-kit-trust-0.23.5-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  python-dmidecode-3.12.2-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  hwdata-0.252-8.6.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  rpm-python-4.11.3-25.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  lua-5.1.4-15.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  virt-what-1.13-10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  tzdata-2017b-1.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libreport-plugin-ureport-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iproute-3.10.0-87.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libstoragemgmt-python-clibs-1.4.0-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  sssd-client-1.15.2-50.el7_4.2.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libsepol-2.5-6.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gnutls-3.3.26-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  ipset-6.29-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  openldap-devel-2.4.44-5.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  strace-4.12-4.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  filesystem-3.2-21.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kpartx-0.4.9-111.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libstoragemgmt-python-1.4.0-3.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  rpcbind-0.2.0-42.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:grub2-tools-extra-2.02-0.64.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  curl-7.29.0-42.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  freetype-2.4.11-15.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  pinentry-0.8.1-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  alsa-tools-firmware-1.1.0-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  sos-3.4-6.el7.centos.noarch: [Errno 5] [Errno 12] 无法分配内存
+  3:traceroute-2.0.22-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iwl135-firmware-18.168.6.1-56.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  1:quota-4.01-14.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gcc-c++-4.8.5-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libcom_err-devel-1.42.9-10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:dbus-1.6.12-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  mailx-12.5-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  plymouth-0.8.9-0.28.20140113.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  7:device-mapper-1.02.140-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  systemd-219-42.el7_4.1.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  pcre-8.32-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  systemd-libs-219-42.el7_4.1.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  abrt-libs-2.1.11-48.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kernel-3.10.0-693.2.2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kernel-headers-3.10.0-693.2.2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cracklib-2.9.0-11.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  4:perl-macros-5.16.3-292.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  14:tcpdump-4.9.0-5.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libnl3-cli-3.2.28-4.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  ca-certificates-2017.2.14-71.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  iwl3160-firmware-22.0.7.0-56.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  1:quota-nls-4.01-14.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  cyrus-sasl-2.1.26-21.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iwl2030-firmware-18.168.6.1-56.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  1:openssl-1.0.2k-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  yum-utils-1.1.31-42.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  32:bind-libs-lite-9.9.4-51.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  usb_modeswitch-2.4.0-5.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  centos-release-7-4.1708.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  2:tar-1.26-32.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iw-4.3-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  plymouth-scripts-0.8.9-0.28.20140113.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libgomp-4.8.5-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libreport-web-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cyrus-sasl-devel-2.1.26-21.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libnetfilter_conntrack-1.0.6-1.el7_3.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  rdma-core-13-7.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kmod-20-15.el7_4.2.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  glibc-devel-2.17-196.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  rdma-core-13-7.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  yum-langpacks-0.4.2-7.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  shared-mime-info-1.8-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  binutils-2.25.1-32.base.el7_4.1.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libsepol-2.5-6.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  1:gmp-6.0.0-15.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libdb-utils-5.3.21-20.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  perl-Socket-2.010-4.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libgcrypt-1.5.3-14.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  ntsysv-1.7.4-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  12:dhcp-common-4.2.5-58.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  zip-3.0-11.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libstdc++-4.8.5-16.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  xz-libs-5.2.2-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  file-5.11-33.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  satyr-0.13-14.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:grub2-tools-efi-2.02-0.64.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  7:device-mapper-event-libs-1.02.140-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  fipscheck-lib-1.4.1-6.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  util-linux-2.23.2-43.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  nspr-4.13.1-1.0.el7_3.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kernel-tools-libs-3.10.0-693.2.2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:NetworkManager-ppp-1.8.0-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  logrotate-3.8.6-14.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  2:vim-common-7.4.160-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  nss-util-3.28.4-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  7:lvm2-2.02.171-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  cyrus-sasl-lib-2.1.26-21.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  e2fsprogs-1.42.9-10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gsettings-desktop-schemas-3.22.0-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:openssl-libs-1.0.2k-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  nss-softokn-3.28.3-8.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  tuned-2.8.0-5.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  bash-4.2.46-29.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  openssh-7.4p1-12.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:grub2-pc-modules-2.02-0.64.el7.centos.noarch: [Errno 5] [Errno 12] 无法分配内存
+  nss-softokn-freebl-3.28.3-8.el7_4.i686: [Errno 5] [Errno 12] 无法分配内存
+  glibc-static-2.17-196.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:grub2-tools-2.02-0.64.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iptables-1.4.21-18.0.1.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  vsftpd-3.0.2-22.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  crda-3.13_2016.02.08-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:NetworkManager-libnm-1.8.0-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libdb-devel-5.3.21-20.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  glibc-2.17-196.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  nettle-2.7.1-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  ipset-libs-6.29-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libreport-plugin-mantisbt-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  audit-2.7.6-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:dmidecode-3.0-5.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  usb_modeswitch-data-20160612-2.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  firewalld-0.4.4.4-6.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  systemd-python-219-42.el7_4.1.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libdb-5.3.21-20.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libss-1.42.9-10.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  pam-1.1.8-18.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  xz-devel-5.2.2-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  krb5-devel-1.15.1-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  krb5-libs-1.15.1-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  7:lvm2-libs-2.02.171-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  sg3_utils-libs-1.37-12.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  elfutils-libelf-0.168-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:grub2-pc-2.02-0.64.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  openssh-clients-7.4p1-12.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  nss-sysinit-3.28.4-12.el7_4.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  unzip-6.0-16.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:grub2-common-2.02-0.64.el7.centos.noarch: [Errno 5] [Errno 12] 无法分配内存
+  kernel-tools-3.10.0-693.2.2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  coreutils-8.22-18.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  glibc-2.17-196.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  chkconfig-1.7.4-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  kbd-misc-1.15.5-13.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  acpid-2.0.19-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  iwl7265-firmware-22.0.7.0-56.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  pcre-8.32-17.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  hunspell-en-GB-0.20121024-6.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libgcrypt-1.5.3-14.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libuuid-2.23.2-43.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  setup-2.8.71-7.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  1:openssl-devel-1.0.2k-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libndp-1.2-7.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  firewalld-filesystem-0.4.4.4-6.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  plymouth-core-libs-0.8.9-0.28.20140113.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libfastjson-0.99.4-2.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  gobject-introspection-1.50.0-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  initscripts-9.49.39-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  zlib-1.2.7-17.el7.i686: [Errno 5] [Errno 12] 无法分配内存
+  grep-2.20-3.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  yum-plugin-fastestmirror-1.1.31-42.el7.noarch: [Errno 5] [Errno 12] 无法分配内存
+  libreport-centos-2.1.11-38.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  glibc-headers-2.17-196.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  jansson-2.10-1.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  12:dhclient-4.2.5-58.el7.centos.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  expat-2.1.0-10.el7_3.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libffi-3.0.13-18.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  1:dbus-libs-1.6.12-17.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  libkadm5-1.15.1-8.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  14:libpcap-1.5.3-9.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+  nss-pem-1.0.3-4.el7.x86_64: [Errno 5] [Errno 12] 无法分配内存
+
+[root@VM_56_194_centos ~]# yum -y install mongodb-org mongodb-org-server
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+没有可用软件包 mongodb-org。
+没有可用软件包 mongodb-org-server。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# yum -y install mongodb-org 
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+没有可用软件包 mongodb-org。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# cat /etc/yum.repos.d/mongodb-3.2.repos
+
+ngodb-org-3.2]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.2/x86_64/
+gpgcheck=0
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc
+[root@VM_56_194_centos ~]# yum -y install mongodb-org 
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+没有可用软件包 mongodb-org。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# yum  install mongodb-org 
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+没有可用软件包 mongodb-org。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# yum install mongodb-org mongodb-org-server
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+没有可用软件包 mongodb-org。
+没有可用软件包 mongodb-org-server。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# cd /
+[root@VM_56_194_centos /]# yum install mongodb-org mongodb-org-server
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+没有可用软件包 mongodb-org。
+没有可用软件包 mongodb-org-server。
+错误：无须任何处理
+[root@VM_56_194_centos /]# yum list | less
+
+[1]+  已停止               yum list | less
+[root@VM_56_194_centos /]# yun install mongodb-server
+-bash: yun: 未找到命令
+[root@VM_56_194_centos /]# cd 
+[root@VM_56_194_centos ~]# yum install mongodb-server
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 mongodb-server.x86_64.0.2.6.12-4.el7 将被 安装
+--> 解决依赖关系完成
+
+依赖关系解决
+
+===============================================================================================================================================================================================
+ Package                                            架构                                       版本                                             源                                        大小
+===============================================================================================================================================================================================
+正在安装:
+ mongodb-server                                     x86_64                                     2.6.12-4.el7                                     epel                                     6.6 M
+
+事务概要
+===============================================================================================================================================================================================
+安装  1 软件包
+
+总下载量：6.6 M
+安装大小：20 M
+Is this ok [y/d/N]: y
+Downloading packages:
+mongodb-server-2.6.12-4.el7.x86_64.rpm                                                                                                                                  | 6.6 MB  00:00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  正在安装    : mongodb-server-2.6.12-4.el7.x86_64                                                                                                                                         1/1 
+  验证中      : mongodb-server-2.6.12-4.el7.x86_64                                                                                                                                         1/1 
+
+已安装:
+  mongodb-server.x86_64 0:2.6.12-4.el7                                                                                                                                                         
+
+完毕！
+[root@VM_56_194_centos ~]# mongod
+mongod --help for help and startup options
+2017-10-19T22:29:49.106+0800 [initandlisten] MongoDB starting : pid=25655 port=27017 dbpath=/data/db 64-bit host=VM_56_194_centos
+2017-10-19T22:29:49.107+0800 [initandlisten] db version v2.6.12
+2017-10-19T22:29:49.107+0800 [initandlisten] git version: nogitversion
+2017-10-19T22:29:49.107+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1e-fips 11 Feb 2013
+2017-10-19T22:29:49.107+0800 [initandlisten] build info: Linux buildvm-16.phx2.fedoraproject.org 4.8.12-300.fc25.x86_64 #1 SMP Fri Dec 2 17:52:11 UTC 2016 x86_64 BOOST_LIB_VERSION=1_53
+2017-10-19T22:29:49.107+0800 [initandlisten] allocator: tcmalloc
+2017-10-19T22:29:49.107+0800 [initandlisten] options: {}
+2017-10-19T22:29:49.120+0800 [initandlisten] 
+2017-10-19T22:29:49.120+0800 [initandlisten] ** WARNING: Readahead for /data/db is set to 4096KB
+2017-10-19T22:29:49.120+0800 [initandlisten] **          We suggest setting it to 256KB (512 sectors) or less
+2017-10-19T22:29:49.120+0800 [initandlisten] **          http://dochub.mongodb.org/core/readahead
+2017-10-19T22:29:49.123+0800 [initandlisten] journal dir=/data/db/journal
+2017-10-19T22:29:49.123+0800 [initandlisten] recover : no journal files present, no recovery needed
+2017-10-19T22:29:49.211+0800 [initandlisten] allocating new ns file /data/db/local.ns, filling with zeroes...
+2017-10-19T22:29:49.320+0800 [FileAllocator] allocating new datafile /data/db/local.0, filling with zeroes...
+2017-10-19T22:29:49.320+0800 [FileAllocator] creating directory /data/db/_tmp
+2017-10-19T22:29:49.496+0800 [FileAllocator] done allocating datafile /data/db/local.0, size: 64MB,  took 0.174 secs
+2017-10-19T22:29:49.503+0800 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2017-10-19T22:29:49.503+0800 [initandlisten] 	 added index to empty collection
+2017-10-19T22:29:49.503+0800 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:37 291ms
+2017-10-19T22:29:49.503+0800 [initandlisten] waiting for connections on port 27017
+^C2017-10-19T22:30:44.814+0800 [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2017-10-19T22:30:44.814+0800 [signalProcessingThread] now exiting
+2017-10-19T22:30:44.814+0800 [signalProcessingThread] dbexit: 
+2017-10-19T22:30:44.814+0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] closing listening socket: 7
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] closing listening socket: 8
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] shutdown: going to close sockets...
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] shutdown: lock for final commit...
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] shutdown: final commit...
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] shutdown: closing all files...
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] closeAllFiles() finished
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] journalCleanup...
+2017-10-19T22:30:44.815+0800 [signalProcessingThread] removeJournalFiles
+2017-10-19T22:30:44.825+0800 [signalProcessingThread] shutdown: removing fs lock...
+2017-10-19T22:30:44.825+0800 [signalProcessingThread] dbexit: really exiting now
+[root@VM_56_194_centos ~]# mongo
+MongoDB shell version: 2.6.12
+connecting to: test
+2017-10-19T22:30:47.209+0800 warning: Failed to connect to 127.0.0.1:27017, reason: errno:111 Connection refused
+2017-10-19T22:30:47.210+0800 Error: couldn't connect to server 127.0.0.1:27017 (127.0.0.1), connection attempt failed at src/mongo/shell/mongo.js:146
+exception: connect failed
+[root@VM_56_194_centos ~]# systemctl start mongo
+Failed to start mongo.service: Unit mongo.service failed to load: No such file or directory.
+[root@VM_56_194_centos ~]# cd /
+[root@VM_56_194_centos /]# cd /usr/local
+[root@VM_56_194_centos local]# ls
+bin  etc  games  include  lib  lib64  libexec  mongodb  php  qcloud  sa  sbin  share  src
+[root@VM_56_194_centos local]# cd mongodb
+[root@VM_56_194_centos mongodb]# ls
+bin  db  GNU-AGPL-3.0  logs  README  THIRD-PARTY-NOTICES
+[root@VM_56_194_centos mongodb]# cd bin
+[root@VM_56_194_centos bin]# ls
+mongodb.conf  mongodump  mongoexport  mongofiles  mongoimport  mongooplog  mongorestore  mongostat  mongotop
+[root@VM_56_194_centos bin]# mongo
+MongoDB shell version: 2.6.12
+connecting to: test
+2017-10-19T22:31:34.230+0800 warning: Failed to connect to 127.0.0.1:27017, reason: errno:111 Connection refused
+2017-10-19T22:31:34.231+0800 Error: couldn't connect to server 127.0.0.1:27017 (127.0.0.1), connection attempt failed at src/mongo/shell/mongo.js:146
+exception: connect failed
+[root@VM_56_194_centos bin]# mongod
+mongod --help for help and startup options
+2017-10-19T22:31:42.484+0800 [initandlisten] MongoDB starting : pid=25819 port=27017 dbpath=/data/db 64-bit host=VM_56_194_centos
+2017-10-19T22:31:42.484+0800 [initandlisten] db version v2.6.12
+2017-10-19T22:31:42.484+0800 [initandlisten] git version: nogitversion
+2017-10-19T22:31:42.484+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1e-fips 11 Feb 2013
+2017-10-19T22:31:42.484+0800 [initandlisten] build info: Linux buildvm-16.phx2.fedoraproject.org 4.8.12-300.fc25.x86_64 #1 SMP Fri Dec 2 17:52:11 UTC 2016 x86_64 BOOST_LIB_VERSION=1_53
+2017-10-19T22:31:42.484+0800 [initandlisten] allocator: tcmalloc
+2017-10-19T22:31:42.484+0800 [initandlisten] options: {}
+2017-10-19T22:31:42.484+0800 [initandlisten] 
+2017-10-19T22:31:42.484+0800 [initandlisten] ** WARNING: Readahead for /data/db is set to 4096KB
+2017-10-19T22:31:42.484+0800 [initandlisten] **          We suggest setting it to 256KB (512 sectors) or less
+2017-10-19T22:31:42.484+0800 [initandlisten] **          http://dochub.mongodb.org/core/readahead
+2017-10-19T22:31:42.491+0800 [initandlisten] journal dir=/data/db/journal
+2017-10-19T22:31:42.491+0800 [initandlisten] recover : no journal files present, no recovery needed
+2017-10-19T22:31:42.579+0800 [initandlisten] waiting for connections on port 27017
+^C2017-10-19T22:32:32.573+0800 [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] now exiting
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] dbexit: 
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] closing listening socket: 7
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] closing listening socket: 8
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] shutdown: going to close sockets...
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] shutdown: lock for final commit...
+2017-10-19T22:32:32.573+0800 [signalProcessingThread] shutdown: final commit...
+2017-10-19T22:32:32.574+0800 [signalProcessingThread] shutdown: closing all files...
+2017-10-19T22:32:32.574+0800 [signalProcessingThread] closeAllFiles() finished
+2017-10-19T22:32:32.574+0800 [signalProcessingThread] journalCleanup...
+2017-10-19T22:32:32.574+0800 [signalProcessingThread] removeJournalFiles
+2017-10-19T22:32:32.575+0800 [signalProcessingThread] shutdown: removing fs lock...
+2017-10-19T22:32:32.575+0800 [signalProcessingThread] dbexit: really exiting now
+[root@VM_56_194_centos bin]# cd 
+[root@VM_56_194_centos ~]# rpm -qa |grep mongodb
+mongodb-server-2.6.12-4.el7.x86_64
+mongodb-2.6.12-4.el7.x86_64
+[root@VM_56_194_centos ~]# mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+[root@VM_56_194_centos ~]# wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+--2017-10-19 22:34:48--  http://mirrors.aliyun.com/repo/Centos-7.repo
+正在解析主机 mirrors.aliyun.com (mirrors.aliyun.com)... 116.31.73.82, 121.14.24.250, 116.31.73.83, ...
+正在连接 mirrors.aliyun.com (mirrors.aliyun.com)|116.31.73.82|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 200 OK
+长度：2573 (2.5K) [application/octet-stream]
+正在保存至: “/etc/yum.repos.d/CentOS-Base.repo”
+
+100%[=====================================================================================================================================================>] 2,573       --.-K/s 用时 0s      
+
+2017-10-19 22:34:48 (425 MB/s) - 已保存 “/etc/yum.repos.d/CentOS-Base.repo” [2573/2573])
+
+[root@VM_56_194_centos ~]# yum makecache
+已加载插件：fastestmirror, langpacks
+base                                                                                                                                                                    | 3.6 kB  00:00:00     
+epel                                                                                                                                                                    | 4.3 kB  00:00:00     
+extras                                                                                                                                                                  | 3.4 kB  00:00:00     
+updates                                                                                                                                                                 | 3.4 kB  00:00:00     
+(1/11): base/7/x86_64/group_gz                                                                                                                                          | 156 kB  00:00:00     
+(2/11): epel/7/x86_64/other_db                                                                                                                                          | 2.2 MB  00:00:00     
+(3/11): extras/7/x86_64/filelists_db                                                                                                                                    | 391 kB  00:00:00     
+(4/11): epel/7/x86_64/filelists_db                                                                                                                                      | 8.1 MB  00:00:01     
+(5/11): extras/7/x86_64/prestodelta                                                                                                                                     |  29 kB  00:00:00     
+(6/11): updates/7/x86_64/prestodelta                                                                                                                                    | 268 kB  00:00:00     
+(7/11): updates/7/x86_64/other_db                                                                                                                                       | 245 kB  00:00:00     
+(8/11): base/7/x86_64/primary_db                                                                                                                                        | 5.7 MB  00:00:02     
+base/7/x86_64/other_db         FAILED                                          
+http://mirrors.aliyuncs.com/centos/7/os/x86_64/repodata/cf0cc856d46b3095106da78256fb28f9d8defea4118d0e75eab07dc53b7d3f0d-other.sqlite.bz2: [Errno 12] Timeout on http://mirrors.aliyuncs.com/centos/7/os/x86_64/repodata/cf0cc856d46b3095106da78256fb28f9d8defea4118d0e75eab07dc53b7d3f0d-other.sqlite.bz2: (28, 'Connection timed out after 30001 milliseconds')
+正在尝试其它镜像。
+base/7/x86_64/filelists_db     FAILED                                          
+http://mirrors.aliyuncs.com/centos/7/os/x86_64/repodata/6cd606547d4f569538d4090e9accdc3c69964de1116b9ab1e0a7864bb1f3ec98-filelists.sqlite.bz2: [Errno 12] Timeout on http://mirrors.aliyuncs.com/centos/7/os/x86_64/repodata/6cd606547d4f569538d4090e9accdc3c69964de1116b9ab1e0a7864bb1f3ec98-filelists.sqlite.bz2: (28, 'Connection timed out after 30001 milliseconds')
+正在尝试其它镜像。
+(9/11): base/7/x86_64/other_db                                                                                                                                          | 2.5 MB  00:00:00     
+extras/7/x86_64/other_db       FAILED                                            88% [==============================================================-        ] 409 kB/s |  23 MB  00:00:07 ETA 
+http://mirrors.aliyuncs.com/centos/7/extras/x86_64/repodata/e339af77b467a7eed0ae1f6e599e44e7423d6c8719eb38631a2b86658ea577f9-other.sqlite.bz2: [Errno 12] Timeout on http://mirrors.aliyuncs.com/centos/7/extras/x86_64/repodata/e339af77b467a7eed0ae1f6e599e44e7423d6c8719eb38631a2b86658ea577f9-other.sqlite.bz2: (28, 'Connection timed out after 30001 milliseconds')
+正在尝试其它镜像。
+(10/11): extras/7/x86_64/other_db                                                                                                                                       |  75 kB  00:00:00     
+(11/11): base/7/x86_64/filelists_db                                                                                                                                     | 6.7 MB  00:00:02     
+Loading mirror speeds from cached hostfile
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+元数据缓存已建立
+[root@VM_56_194_centos ~]# yum install mongodb-org mongodb-org-server
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+没有可用软件包 mongodb-org。
+没有可用软件包 mongodb-org-server。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# cat /etc/os-release
+NAME="CentOS Linux"
+VERSION="7 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="7"
+PRETTY_NAME="CentOS Linux 7 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:7"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-7"
+CENTOS_MANTISBT_PROJECT_VERSION="7"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="7"
+
+[root@VM_56_194_centos ~]# vim /etc/yum.repos.d/mongodb-org-3.4.repo
+[root@VM_56_194_centos ~]# rm -rf /var/cache/yum
+[root@VM_56_194_centos ~]# sudo yum install -y mongodb-org
+已加载插件：fastestmirror, langpacks
+
+
+File contains no section headers.
+file: file:///etc/yum.repos.d/mongodb-org-3.4.repo, line: 2
+'ngodb-org-3.4]\n'
+[root@VM_56_194_centos ~]# yum install -y mongodb-org
+已加载插件：fastestmirror, langpacks
+
+
+File contains no section headers.
+file: file:///etc/yum.repos.d/mongodb-org-3.4.repo, line: 2
+'ngodb-org-3.4]\n'
+[root@VM_56_194_centos ~]# vim /etc/yum.repos.d/mongodb-org-3.4.repo
+[root@VM_56_194_centos ~]# rm -rf /var/cache/yum
+[root@VM_56_194_centos ~]# yum install -y mongodb-org
+已加载插件：fastestmirror, langpacks
+base                                                                                                                                                                    | 3.6 kB  00:00:00     
+epel                                                                                                                                                                    | 4.3 kB  00:00:00     
+extras                                                                                                                                                                  | 3.4 kB  00:00:00     
+mongodb-org-3.4                                                                                                                                                         | 2.5 kB  00:00:00     
+updates                                                                                                                                                                 | 3.4 kB  00:00:00     
+(1/8): epel/7/x86_64/group_gz                                                                                                                                           | 170 kB  00:00:00     
+(2/8): base/7/x86_64/group_gz                                                                                                                                           | 156 kB  00:00:00     
+(3/8): epel/7/x86_64/updateinfo                                                                                                                                         | 840 kB  00:00:00     
+(4/8): extras/7/x86_64/primary_db                                                                                                                                       | 110 kB  00:00:00     
+(5/8): epel/7/x86_64/primary_db                                                                                                                                         | 4.8 MB  00:00:00     
+(6/8): updates/7/x86_64/primary_db                                                                                                                                      | 2.7 MB  00:00:00     
+(7/8): mongodb-org-3.4/primary_db                                                                                                                                       |  54 kB  00:00:04     
+base/7/x86_64/primary_db       FAILED                                          
+http://mirrors.aliyuncs.com/centos/7/os/x86_64/repodata/0c34273ad0292747ee5e15c047d3e51c67ca59861a446972db45d71abacc7ad7-primary.sqlite.bz2: [Errno 12] Timeout on http://mirrors.aliyuncs.com/centos/7/os/x86_64/repodata/0c34273ad0292747ee5e15c047d3e51c67ca59861a446972db45d71abacc7ad7-primary.sqlite.bz2: (28, 'Connection timed out after 30001 milliseconds')
+正在尝试其它镜像。
+(8/8): base/7/x86_64/primary_db                                                                                                                                         | 5.7 MB  00:00:01     
+Determining fastest mirrors
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+没有可用软件包 mongodb-org。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# rm -rf /var/cache/yum
+[root@VM_56_194_centos ~]# yum install -y mongodb-org
+已加载插件：fastestmirror, langpacks
+base                                                                                                                                                                    | 3.6 kB  00:00:00     
+epel                                                                                                                                                                    | 4.3 kB  00:00:00     
+extras                                                                                                                                                                  | 3.4 kB  00:00:00     
+mongodb-org-3.4                                                                                                                                                         | 2.5 kB  00:00:00     
+updates                                                                                                                                                                 | 3.4 kB  00:00:00     
+(1/8): epel/7/x86_64/group_gz                                                                                                                                           | 170 kB  00:00:00     
+(2/8): epel/7/x86_64/updateinfo                                                                                                                                         | 840 kB  00:00:00     
+(3/8): base/7/x86_64/group_gz                                                                                                                                           | 156 kB  00:00:00     
+(4/8): extras/7/x86_64/primary_db                                                                                                                                       | 110 kB  00:00:00     
+(5/8): epel/7/x86_64/primary_db                                                                                                                                         | 4.8 MB  00:00:00     
+(6/8): updates/7/x86_64/primary_db                                                                                                                                      | 2.7 MB  00:00:00     
+(7/8): mongodb-org-3.4/primary_db                                                                                                                                       |  54 kB  00:00:06     
+base/7/x86_64/primary_db       FAILED                                          
+http://mirrors.aliyuncs.com/centos/7/os/x86_64/repodata/0c34273ad0292747ee5e15c047d3e51c67ca59861a446972db45d71abacc7ad7-primary.sqlite.bz2: [Errno 12] Timeout on http://mirrors.aliyuncs.com/centos/7/os/x86_64/repodata/0c34273ad0292747ee5e15c047d3e51c67ca59861a446972db45d71abacc7ad7-primary.sqlite.bz2: (28, 'Connection timed out after 30001 milliseconds')
+正在尝试其它镜像。
+(8/8): base/7/x86_64/primary_db                                                                                                                                         | 5.7 MB  00:00:01     
+Determining fastest mirrors
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+没有可用软件包 mongodb-org。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# sudo yum install mongodb-org-2.6.4 mongodb-org-server-2.6.4 mongodb-org-shell-2.6.4 mongodb-org-mongos-2.6.4 mongodb-org-tools-2.6.4
+
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+没有可用软件包 mongodb-org-2.6.4。
+没有可用软件包 mongodb-org-server-2.6.4。
+没有可用软件包 mongodb-org-shell-2.6.4。
+没有可用软件包 mongodb-org-mongos-2.6.4。
+没有可用软件包 mongodb-org-tools-2.6.4。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# 
+[root@VM_56_194_centos ~]# vim /etc/yum.repos.d/mongodb.repo
+[root@VM_56_194_centos ~]# rm -rf /etc/yum.repos.d/mongodb-org-3.4.repo
+[root@VM_56_194_centos ~]# sudo yum install mongodb-org-2.6.4 mongodb-org-server-2.6.4 mongodb-org-shell-2.6.4 mongodb-org-mongos-2.6.4 mongodb-org-tools-2.6.4
+已加载插件：fastestmirror, langpacks
+mongodb                                                                                                                                                                 |  951 B  00:00:00     
+mongodb/primary                                                                                                                                                         |  45 kB  00:00:01     
+Loading mirror speeds from cached hostfile
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+mongodb                                                                                                                                                                                279/279
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 mongodb-org.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-mongos.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-server.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-shell.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-tools.x86_64.0.2.6.4-1 将被 安装
+--> 处理 mongodb-org-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 处理 mongodb-org-server-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-server-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 处理 mongodb-org-tools-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-tools-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 处理 mongodb-org-mongos-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-mongos-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 处理 mongodb-org-shell-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-shell-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 解决依赖关系完成
+错误：mongodb-org conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-shell conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-server conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-tools conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-mongos conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-tools conflicts with mongodb-2.6.12-4.el7.x86_64
+错误：mongodb-org-server conflicts with mongodb-2.6.12-4.el7.x86_64
+错误：mongodb-org-mongos conflicts with mongodb-2.6.12-4.el7.x86_64
+错误：mongodb-org-shell conflicts with mongodb-2.6.12-4.el7.x86_64
+错误：mongodb-org conflicts with mongodb-2.6.12-4.el7.x86_64
+ 您可以尝试添加 --skip-broken 选项来解决该问题
+ 您可以尝试执行：rpm -Va --nofiles --nodigest
+[root@VM_56_194_centos ~]# yum
+已加载插件：fastestmirror, langpacks
+您需要给出命令
+Usage: yum [options] COMMAND
+
+List of Commands:
+
+check          检查 RPM 数据库问题
+check-update   检查是否有可用的软件包更新
+clean          删除缓存数据
+deplist        列出软件包的依赖关系
+distribution-synchronization 已同步软件包到最新可用版本
+downgrade      降级软件包
+erase          从系统中移除一个或多个软件包
+fs             Creates filesystem snapshots, or lists/deletes current snapshots.
+fssnapshot     Creates filesystem snapshots, or lists/deletes current snapshots.
+groups         显示或使用、组信息
+help           显示用法提示
+history        显示或使用事务历史
+info           显示关于软件包或组的详细信息
+install        向系统中安装一个或多个软件包
+langavailable  Check available languages
+langinfo       List languages information
+langinstall    Install appropriate language packs for a language
+langlist       List installed languages
+langremove     Remove installed language packs for a language
+list           列出一个或一组软件包
+load-transaction 从文件名中加载一个已存事务
+makecache      创建元数据缓存
+provides       查找提供指定内容的软件包
+reinstall      覆盖安装软件包
+repo-pkgs      将一个源当作一个软件包组，这样我们就可以一次性安装/移除全部软件包。
+repolist       显示已配置的源
+search         在软件包详细信息中搜索指定字符串
+shell          运行交互式的 yum shell
+swap           Simple way to swap packages, instead of using shell
+update         更新系统中的一个或多个软件包
+update-minimal Works like upgrade, but goes to the 'newest' package match which fixes a problem that affects your system
+updateinfo     Acts on repository update information
+upgrade        更新软件包同时考虑软件包取代关系
+version        显示机器和/或可用的源版本。
+
+
+Options:
+  -h, --help            显示此帮助消息并退出
+  -t, --tolerant        忽略错误
+  -C, --cacheonly       完全从系统缓存运行，不升级缓存
+  -c [config file], --config=[config file]
+                        配置文件路径
+  -R [minutes], --randomwait=[minutes]
+                        命令最长等待时间
+  -d [debug level], --debuglevel=[debug level]
+                        调试输出级别
+  --showduplicates      在 list/search 命令下，显示源里重复的条目
+  -e [error level], --errorlevel=[error level]
+                        错误输出级别
+  --rpmverbosity=[debug level name]
+                        RPM 调试输出级别
+  -q, --quiet           静默执行
+  -v, --verbose         详尽的操作过程
+  -y, --assumeyes       回答全部问题为是
+  --assumeno            回答全部问题为否
+  --version             显示 Yum 版本然后退出
+  --installroot=[path]  设置安装根目录
+  --enablerepo=[repo]   启用一个或多个软件源(支持通配符)
+  --disablerepo=[repo]  禁用一个或多个软件源(支持通配符)
+  -x [package], --exclude=[package]
+                        采用全名或通配符排除软件包
+  --disableexcludes=[repo]
+                        禁止从主配置，从源或者从任何位置排除
+  --disableincludes=[repo]
+                        disable includepkgs for a repo or for everything
+  --obsoletes           更新时处理软件包取代关系
+  --noplugins           禁用 Yum 插件
+  --nogpgcheck          禁用 GPG 签名检查
+  --disableplugin=[plugin]
+                        禁用指定名称的插件
+  --enableplugin=[plugin]
+                        启用指定名称的插件
+  --skip-broken         忽略存在依赖关系问题的软件包
+  --color=COLOR         配置是否使用颜色
+  --releasever=RELEASEVER
+                        在 yum 配置和 repo 文件里设置 $releasever 的值
+  --downloadonly        仅下载而不更新
+  --downloaddir=DLDIR   指定一个其他文件夹用于保存软件包
+  --setopt=SETOPTS      设置任意配置和源选项
+  --bugfix              Include bugfix relevant packages, in updates
+  --security            Include security relevant packages, in updates
+  --advisory=ADVS, --advisories=ADVS
+                        Include packages needed to fix the given advisory, in
+                        updates
+  --bzs=BZS             Include packages needed to fix the given BZ, in
+                        updates
+  --cves=CVES           Include packages needed to fix the given CVE, in
+                        updates
+  --sec-severity=SEVS, --secseverity=SEVS
+                        Include security relevant packages matching the
+                        severity, in updates
+
+  插件选项:
+[root@VM_56_194_centos ~]# yum erase mongodb-2.6.12-4.el7.x86_64
+已加载插件：fastestmirror, langpacks
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 mongodb.x86_64.0.2.6.12-4.el7 将被 删除
+--> 解决依赖关系完成
+
+依赖关系解决
+
+===============================================================================================================================================================================================
+ Package                                      架构                                        版本                                                源                                          大小
+===============================================================================================================================================================================================
+正在删除:
+ mongodb                                      x86_64                                      2.6.12-4.el7                                        @epel                                      131 M
+
+事务概要
+===============================================================================================================================================================================================
+移除  1 软件包
+
+安装大小：131 M
+是否继续？[y/N]：y 
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  正在删除    : mongodb-2.6.12-4.el7.x86_64                                                                                                                                                1/1 
+  验证中      : mongodb-2.6.12-4.el7.x86_64                                                                                                                                                1/1 
+
+删除:
+  mongodb.x86_64 0:2.6.12-4.el7                                                                                                                                                                
+
+完毕！
+[root@VM_56_194_centos ~]# yum erase mongodb-server
+已加载插件：fastestmirror, langpacks
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 mongodb-server.x86_64.0.2.6.12-4.el7 将被 删除
+--> 解决依赖关系完成
+
+依赖关系解决
+
+===============================================================================================================================================================================================
+ Package                                           架构                                      版本                                               源                                        大小
+===============================================================================================================================================================================================
+正在删除:
+ mongodb-server                                    x86_64                                    2.6.12-4.el7                                       @epel                                     20 M
+
+事务概要
+===============================================================================================================================================================================================
+移除  1 软件包
+
+安装大小：20 M
+是否继续？[y/N]：y
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  正在删除    : mongodb-server-2.6.12-4.el7.x86_64                                                                                                                                         1/1 
+  验证中      : mongodb-server-2.6.12-4.el7.x86_64                                                                                                                                         1/1 
+
+删除:
+  mongodb-server.x86_64 0:2.6.12-4.el7                                                                                                                                                         
+
+完毕！
+[root@VM_56_194_centos ~]# sudo yum install mongodb-org-2.6.4 mongodb-org-server-2.6.4 mongodb-org-shell-2.6.4 mongodb-org-mongos-2.6.4 mongodb-org-tools-2.6.4
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 mongodb-org.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-mongos.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-server.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-shell.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-tools.x86_64.0.2.6.4-1 将被 安装
+--> 解决依赖关系完成
+
+依赖关系解决
+
+===============================================================================================================================================================================================
+ Package                                               架构                                      版本                                         源                                          大小
+===============================================================================================================================================================================================
+正在安装:
+ mongodb-org                                           x86_64                                    2.6.4-1                                      mongodb                                    4.6 k
+ mongodb-org-mongos                                    x86_64                                    2.6.4-1                                      mongodb                                    6.8 M
+ mongodb-org-server                                    x86_64                                    2.6.4-1                                      mongodb                                    9.0 M
+ mongodb-org-shell                                     x86_64                                    2.6.4-1                                      mongodb                                    4.3 M
+ mongodb-org-tools                                     x86_64                                    2.6.4-1                                      mongodb                                     89 M
+
+事务概要
+===============================================================================================================================================================================================
+安装  5 软件包
+
+总下载量：109 M
+安装大小：276 M
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/5): mongodb-org-2.6.4-1.x86_64.rpm                                                                                                                                   | 4.6 kB  00:00:01     
+(2/5): mongodb-org-mongos-2.6.4-1.x86_64.rpm                                                                                                                            | 6.8 MB  00:00:07     
+(3/5): mongodb-org-server-2.6.4-1.x86_64.rpm                                                                                                                            | 9.0 MB  00:00:08     
+(4/5): mongodb-org-shell-2.6.4-1.x86_64.rpm                                                                                                                             | 4.3 MB  00:00:05     
+(5/5): mongodb-org-tools-2.6.4-1.x86_64.rpm                                                                                                                             |  89 MB  00:00:55     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+总计                                                                                                                                                           1.7 MB/s | 109 MB  00:01:05     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  正在安装    : mongodb-org-shell-2.6.4-1.x86_64                                                                                                                                           1/5 
+  正在安装    : mongodb-org-mongos-2.6.4-1.x86_64                                                                                                                                          2/5 
+  正在安装    : mongodb-org-tools-2.6.4-1.x86_64                                                                                                                                           3/5 
+  正在安装    : mongodb-org-server-2.6.4-1.x86_64                                                                                                                                          4/5 
+  正在安装    : mongodb-org-2.6.4-1.x86_64                                                                                                                                                 5/5 
+  验证中      : mongodb-org-2.6.4-1.x86_64                                                                                                                                                 1/5 
+  验证中      : mongodb-org-server-2.6.4-1.x86_64                                                                                                                                          2/5 
+  验证中      : mongodb-org-tools-2.6.4-1.x86_64                                                                                                                                           3/5 
+  验证中      : mongodb-org-mongos-2.6.4-1.x86_64                                                                                                                                          4/5 
+  验证中      : mongodb-org-shell-2.6.4-1.x86_64                                                                                                                                           5/5 
+
+已安装:
+  mongodb-org.x86_64 0:2.6.4-1    mongodb-org-mongos.x86_64 0:2.6.4-1    mongodb-org-server.x86_64 0:2.6.4-1    mongodb-org-shell.x86_64 0:2.6.4-1    mongodb-org-tools.x86
+
+_64 0:2.6.4-1   
+
+完毕！
+
+
+
+[root@VM_56_194_centos ~]# sudo yum install mongodb-org-2.6.4 mongodb-org-server-2.6.4 mongodb-org-shell-2.6.4 mongodb-org-mongos-2.6.4 mongodb-org-tools-2.6.4
+
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+没有可用软件包 mongodb-org-2.6.4。
+没有可用软件包 mongodb-org-server-2.6.4。
+没有可用软件包 mongodb-org-shell-2.6.4。
+没有可用软件包 mongodb-org-mongos-2.6.4。
+没有可用软件包 mongodb-org-tools-2.6.4。
+错误：无须任何处理
+[root@VM_56_194_centos ~]# 
+[root@VM_56_194_centos ~]# vim /etc/yum.repos.d/mongodb.repo
+[root@VM_56_194_centos ~]# rm -rf /etc/yum.repos.d/mongodb-org-3.4.repo
+[root@VM_56_194_centos ~]# sudo yum install mongodb-org-2.6.4 mongodb-org-server-2.6.4 mongodb-org-shell-2.6.4 mongodb-org-mongos-2.6.4 mongodb-org-tools-2.6.4
+已加载插件：fastestmirror, langpacks
+mongodb                                                                                                                                                                 |  951 B  00:00:00     
+mongodb/primary                                                                                                                                                         |  45 kB  00:00:01     
+Loading mirror speeds from cached hostfile
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+mongodb                                                                                                                                                                                279/279
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 mongodb-org.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-mongos.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-server.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-shell.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-tools.x86_64.0.2.6.4-1 将被 安装
+--> 处理 mongodb-org-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 处理 mongodb-org-server-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-server-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 处理 mongodb-org-tools-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-tools-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 处理 mongodb-org-mongos-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-mongos-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 处理 mongodb-org-shell-2.6.4-1.x86_64 与 mongodb-server 的冲突
+--> 处理 mongodb-org-shell-2.6.4-1.x86_64 与 mongodb 的冲突
+--> 解决依赖关系完成
+错误：mongodb-org conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-shell conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-server conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-tools conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-mongos conflicts with mongodb-server-2.6.12-4.el7.x86_64
+错误：mongodb-org-tools conflicts with mongodb-2.6.12-4.el7.x86_64
+错误：mongodb-org-server conflicts with mongodb-2.6.12-4.el7.x86_64
+错误：mongodb-org-mongos conflicts with mongodb-2.6.12-4.el7.x86_64
+错误：mongodb-org-shell conflicts with mongodb-2.6.12-4.el7.x86_64
+错误：mongodb-org conflicts with mongodb-2.6.12-4.el7.x86_64
+ 您可以尝试添加 --skip-broken 选项来解决该问题
+ 您可以尝试执行：rpm -Va --nofiles --nodigest
+[root@VM_56_194_centos ~]# yum
+已加载插件：fastestmirror, langpacks
+您需要给出命令
+Usage: yum [options] COMMAND
+
+List of Commands:
+
+check          检查 RPM 数据库问题
+check-update   检查是否有可用的软件包更新
+clean          删除缓存数据
+deplist        列出软件包的依赖关系
+distribution-synchronization 已同步软件包到最新可用版本
+downgrade      降级软件包
+erase          从系统中移除一个或多个软件包
+fs             Creates filesystem snapshots, or lists/deletes current snapshots.
+fssnapshot     Creates filesystem snapshots, or lists/deletes current snapshots.
+groups         显示或使用、组信息
+help           显示用法提示
+history        显示或使用事务历史
+info           显示关于软件包或组的详细信息
+install        向系统中安装一个或多个软件包
+langavailable  Check available languages
+langinfo       List languages information
+langinstall    Install appropriate language packs for a language
+langlist       List installed languages
+langremove     Remove installed language packs for a language
+list           列出一个或一组软件包
+load-transaction 从文件名中加载一个已存事务
+makecache      创建元数据缓存
+provides       查找提供指定内容的软件包
+reinstall      覆盖安装软件包
+repo-pkgs      将一个源当作一个软件包组，这样我们就可以一次性安装/移除全部软件包。
+repolist       显示已配置的源
+search         在软件包详细信息中搜索指定字符串
+shell          运行交互式的 yum shell
+swap           Simple way to swap packages, instead of using shell
+update         更新系统中的一个或多个软件包
+update-minimal Works like upgrade, but goes to the 'newest' package match which fixes a problem that affects your system
+updateinfo     Acts on repository update information
+upgrade        更新软件包同时考虑软件包取代关系
+version        显示机器和/或可用的源版本。
+
+
+Options:
+  -h, --help            显示此帮助消息并退出
+  -t, --tolerant        忽略错误
+  -C, --cacheonly       完全从系统缓存运行，不升级缓存
+  -c [config file], --config=[config file]
+                        配置文件路径
+  -R [minutes], --randomwait=[minutes]
+                        命令最长等待时间
+  -d [debug level], --debuglevel=[debug level]
+                        调试输出级别
+  --showduplicates      在 list/search 命令下，显示源里重复的条目
+  -e [error level], --errorlevel=[error level]
+                        错误输出级别
+  --rpmverbosity=[debug level name]
+                        RPM 调试输出级别
+  -q, --quiet           静默执行
+  -v, --verbose         详尽的操作过程
+  -y, --assumeyes       回答全部问题为是
+  --assumeno            回答全部问题为否
+  --version             显示 Yum 版本然后退出
+  --installroot=[path]  设置安装根目录
+  --enablerepo=[repo]   启用一个或多个软件源(支持通配符)
+  --disablerepo=[repo]  禁用一个或多个软件源(支持通配符)
+  -x [package], --exclude=[package]
+                        采用全名或通配符排除软件包
+  --disableexcludes=[repo]
+                        禁止从主配置，从源或者从任何位置排除
+  --disableincludes=[repo]
+                        disable includepkgs for a repo or for everything
+  --obsoletes           更新时处理软件包取代关系
+  --noplugins           禁用 Yum 插件
+  --nogpgcheck          禁用 GPG 签名检查
+  --disableplugin=[plugin]
+                        禁用指定名称的插件
+  --enableplugin=[plugin]
+                        启用指定名称的插件
+  --skip-broken         忽略存在依赖关系问题的软件包
+  --color=COLOR         配置是否使用颜色
+  --releasever=RELEASEVER
+                        在 yum 配置和 repo 文件里设置 $releasever 的值
+  --downloadonly        仅下载而不更新
+  --downloaddir=DLDIR   指定一个其他文件夹用于保存软件包
+  --setopt=SETOPTS      设置任意配置和源选项
+  --bugfix              Include bugfix relevant packages, in updates
+  --security            Include security relevant packages, in updates
+  --advisory=ADVS, --advisories=ADVS
+                        Include packages needed to fix the given advisory, in
+                        updates
+  --bzs=BZS             Include packages needed to fix the given BZ, in
+                        updates
+  --cves=CVES           Include packages needed to fix the given CVE, in
+                        updates
+  --sec-severity=SEVS, --secseverity=SEVS
+                        Include security relevant packages matching the
+                        severity, in updates
+
+  插件选项:
+[root@VM_56_194_centos ~]# yum erase mongodb-2.6.12-4.el7.x86_64
+已加载插件：fastestmirror, langpacks
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 mongodb.x86_64.0.2.6.12-4.el7 将被 删除
+--> 解决依赖关系完成
+
+依赖关系解决
+
+===============================================================================================================================================================================================
+ Package                                      架构                                        版本                                                源                                          大小
+===============================================================================================================================================================================================
+正在删除:
+ mongodb                                      x86_64                                      2.6.12-4.el7                                        @epel                                      131 M
+
+事务概要
+===============================================================================================================================================================================================
+移除  1 软件包
+
+安装大小：131 M
+是否继续？[y/N]：y 
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  正在删除    : mongodb-2.6.12-4.el7.x86_64                                                                                                                                                1/1 
+  验证中      : mongodb-2.6.12-4.el7.x86_64                                                                                                                                                1/1 
+
+删除:
+  mongodb.x86_64 0:2.6.12-4.el7                                                                                                                                                                
+
+完毕！
+[root@VM_56_194_centos ~]# yum erase mongodb-server
+已加载插件：fastestmirror, langpacks
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 mongodb-server.x86_64.0.2.6.12-4.el7 将被 删除
+--> 解决依赖关系完成
+
+依赖关系解决
+
+===============================================================================================================================================================================================
+ Package                                           架构                                      版本                                               源                                        大小
+===============================================================================================================================================================================================
+正在删除:
+ mongodb-server                                    x86_64                                    2.6.12-4.el7                                       @epel                                     20 M
+
+事务概要
+===============================================================================================================================================================================================
+移除  1 软件包
+
+安装大小：20 M
+是否继续？[y/N]：y
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  正在删除    : mongodb-server-2.6.12-4.el7.x86_64                                                                                                                                         1/1 
+  验证中      : mongodb-server-2.6.12-4.el7.x86_64                                                                                                                                         1/1 
+
+删除:
+  mongodb-server.x86_64 0:2.6.12-4.el7                                                                                                                                                         
+
+完毕！
+[root@VM_56_194_centos ~]# sudo yum install mongodb-org-2.6.4 mongodb-org-server-2.6.4 mongodb-org-shell-2.6.4 mongodb-org-mongos-2.6.4 mongodb-org-tools-2.6.4
+已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirrors.aliyun.com
+ * extras: mirrors.aliyun.com
+ * updates: mirrors.aliyun.com
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 mongodb-org.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-mongos.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-server.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-shell.x86_64.0.2.6.4-1 将被 安装
+---> 软件包 mongodb-org-tools.x86_64.0.2.6.4-1 将被 安装
+--> 解决依赖关系完成
+
+依赖关系解决
+
+===============================================================================================================================================================================================
+ Package                                               架构                                      版本                                         源                                          大小
+===============================================================================================================================================================================================
+正在安装:
+ mongodb-org                                           x86_64                                    2.6.4-1                                      mongodb                                    4.6 k
+ mongodb-org-mongos                                    x86_64                                    2.6.4-1                                      mongodb                                    6.8 M
+ mongodb-org-server                                    x86_64                                    2.6.4-1                                      mongodb                                    9.0 M
+ mongodb-org-shell                                     x86_64                                    2.6.4-1                                      mongodb                                    4.3 M
+ mongodb-org-tools                                     x86_64                                    2.6.4-1                                      mongodb                                     89 M
+
+事务概要
+===============================================================================================================================================================================================
+安装  5 软件包
+
+总下载量：109 M
+安装大小：276 M
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/5): mongodb-org-2.6.4-1.x86_64.rpm                                                                                                                                   | 4.6 kB  00:00:01     
+(2/5): mongodb-org-mongos-2.6.4-1.x86_64.rpm                                                                                                                            | 6.8 MB  00:00:07     
+(3/5): mongodb-org-server-2.6.4-1.x86_64.rpm                                                                                                                            | 9.0 MB  00:00:08     
+(4/5): mongodb-org-shell-2.6.4-1.x86_64.rpm                                                                                                                             | 4.3 MB  00:00:05     
+(5/5): mongodb-org-tools-2.6.4-1.x86_64.rpm                                                                                                                             |  89 MB  00:00:55     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+总计                                                                                                                                                           1.7 MB/s | 109 MB  00:01:05     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  正在安装    : mongodb-org-shell-2.6.4-1.x86_64                                                                                                                                           1/5 
+  正在安装    : mongodb-org-mongos-2.6.4-1.x86_64                                                                                                                                          2/5 
+  正在安装    : mongodb-org-tools-2.6.4-1.x86_64                                                                                                                                           3/5 
+  正在安装    : mongodb-org-server-2.6.4-1.x86_64                                                                                                                                          4/5 
+  正在安装    : mongodb-org-2.6.4-1.x86_64                                                                                                                                                 5/5 
+  验证中      : mongodb-org-2.6.4-1.x86_64                                                                                                                                                 1/5 
+  验证中      : mongodb-org-server-2.6.4-1.x86_64                                                                                                                                          2/5 
+  验证中      : mongodb-org-tools-2.6.4-1.x86_64                                                                                                                                           3/5 
+  验证中      : mongodb-org-mongos-2.6.4-1.x86_64                                                                                                                                          4/5 
+  验证中      : mongodb-org-shell-2.6.4-1.x86_64                                                                                                                                           5/5 
+
+已安装:
+  mongodb-org.x86_64 0:2.6.4-1    mongodb-org-mongos.x86_64 0:2.6.4-1    mongodb-org-server.x86_64 0:2.6.4-1    mongodb-org-shell.x86_64 0:2.6.4-1    mongodb-org-tools.x86_64 0:2.6.4-1   
+
+完毕！
+[root@VM_56_194_centos ~]# ^C
+[root@VM_56_194_centos ~]# mongo
+MongoDB shell version: 2.6.4
+connecting to: test
+2017-10-19T22:54:24.296+0800 warning: Failed to connect to 127.0.0.1:27017, reason: errno:111 Connection refused
+2017-10-19T22:54:24.297+0800 Error: couldn't connect to server 127.0.0.1:27017 (127.0.0.1), connection attempt failed at src/mongo/shell/mongo.js:146
+exception: connect failed
+[root@VM_56_194_centos ~]# rpm -qa |grep mongodb
+mongodb-org-server-2.6.4-1.x86_64
+mongodb-org-shell-2.6.4-1.x86_64
+mongodb-org-tools-2.6.4-1.x86_64
+mongodb-org-2.6.4-1.x86_64
+mongodb-org-mongos-2.6.4-1.x86_64
+[root@VM_56_194_centos ~]# rpm -ql mongodb-org-server
+/etc/mongod.conf
+/etc/rc.d/init.d/mongod
+/etc/sysconfig/mongod
+/usr/bin/mongod
+/usr/share/man/man1/mongod.1
+/var/lib/mongo
+/var/log/mongodb
+/var/log/mongodb/mongod.log
+/var/run/mongodb
+[root@VM_56_194_centos ~]# /etc/init.d/mongod start
+Starting mongod (via systemctl):                           [  确定  ]
+[root@VM_56_194_centos ~]# mongo
+MongoDB shell version: 2.6.4
+connecting to: test
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	http://docs.mongodb.org/
+Questions? Try the support group
+	http://groups.google.com/group/mongodb-user
+Server has startup warnings: 
+2017-10-19T22:54:50.367+0800 [initandlisten] 
+2017-10-19T22:54:50.367+0800 [initandlisten] ** WARNING: Readahead for /var/lib/mongo is set to 4096KB
+2017-10-19T22:54:50.367+0800 [initandlisten] **          We suggest setting it to 256KB (512 sectors) or less
+2017-10-19T22:54:50.367+0800 [initandlisten] **          http://dochub.mongodb.org/core/readahead
+> show dbs
+admin  (empty)
+local  0.078GB
+> use local
+switched to db local
+> mongo -help
+2017-10-19T22:55:32.695+0800 ReferenceError: mongo is not defined
+> help
+	db.help()                    help on db methods
+	db.mycoll.help()             help on collection methods
+	sh.help()                    sharding helpers
+	rs.help()                    replica set helpers
+	help admin                   administrative help
+	help connect                 connecting to a db help
+	help keys                    key shortcuts
+	help misc                    misc things to know
+	help mr                      mapreduce
+
+	show dbs                     show database names
+	show collections             show collections in current database
+	show users                   show users in current database
+	show profile                 show most recent system.profile entries with time >= 1ms
+	show logs                    show the accessible logger names
+	show log [name]              prints out the last segment of log in memory, 'global' is default
+	use <db_name>                set current database
+	db.foo.find()                list objects in collection foo
+	db.foo.find( { a : 1 } )     list objects in foo where a == 1
+	it                           result of the last line evaluated; use to further iterate
+	DBQuery.shellBatchSize = x   set default number of items to display on shell
+	exit                         quit the mongo shell
+> show collections
+startup_log
+system.indexes
+> show startup_log
+2017-10-19T22:56:03.197+0800 don't know how to show [startup_log] at src/mongo/shell/utils.js:729
+> db.startup_log
+local.startup_log
+> show startup_log.find()
+2017-10-19T22:57:35.019+0800 don't know how to show [startup_log.find()] at src/mongo/shell/utils.js:729
+> db.startup_log.find()
+{ "_id" : "VM_56_194_centos-1508424890605", "hostname" : "VM_56_194_centos", "startTime" : ISODate("2017-10-19T14:54:50Z"), "startTimeLocal" : "Thu Oct 19 22:54:50.605", "cmdLine" : { "config" : "/etc/mongod.conf", "net" : { "bindIp" : "127.0.0.1" }, "processManagement" : { "fork" : true, "pidFilePath" : "/var/run/mongodb/mongod.pid" }, "storage" : { "dbPath" : "/var/lib/mongo" }, "systemLog" : { "destination" : "file", "logAppend" : true, "path" : "/var/log/mongodb/mongod.log" } }, "pid" : NumberLong(27763), "buildinfo" : { "version" : "2.6.4", "gitVersion" : "3a830be0eb92d772aa855ebb711ac91d658ee910", "OpenSSLVersion" : "", "sysInfo" : "Linux build7.nj1.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49", "loaderFlags" : "-fPIC -pthread -Wl,-z,now -rdynamic", "compilerFlags" : "-Wnon-virtual-dtor -Woverloaded-virtual -fPIC -fno-strict-aliasing -ggdb -pthread -Wall -Wsign-compare -Wno-unknown-pragmas -Winvalid-pch -pipe -Werror -O3 -Wno-unused-function -Wno-deprecated-declarations -fno-builtin-memcmp", "allocator" : "tcmalloc", "versionArray" : [ 2, 6, 4, 0 ], "javascriptEngine" : "V8", "bits" : 64, "debug" : false, "maxBsonObjectSize" : 16777216 } }
+> ^C
+bye
+[root@VM_56_194_centos ~]# 
+
+
