@@ -5,9 +5,11 @@
 ```
 ├── node-demo
 ├── nodetests
-└── readme.md
+├── readme.md
+├── nodemysql
+├── nodespider
 ```
-* 其中node-demo是一个express4.X所生成的框架
+* 其中node-demo使用 nodejs+express4.X+mongodb
 项目结构为：
 ```
 .
@@ -84,7 +86,10 @@
     ├── list.ejs
     └── listitem.ejs
 ```
-* nodetests是平时跟着教程所敲的小demo，主要是一些功能的实践
+* nodetests 平时跟着教程所敲的小demo，主要是一些功能的实践
+* nodemysql 学习nodejs连接操作mysql
+* nodespider 用node写的一些辣鸡小爬虫
+---
 
 好好学习，天天向上！
 
