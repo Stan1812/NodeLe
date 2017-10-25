@@ -1,8 +1,8 @@
 var mysql = require('mysql');
 var connection = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: '2333333',
+  user: 'nodetest',
+  password: '123456',
   database: 'nodedb'
 });
 
@@ -43,16 +43,16 @@ var key = 'name'
 var value = '李彪'
 var sql_delete = 'DELETE FROM websites WHERE ' + key + '=' + value + ''
 
-connection.query(sql_delete, function(err, result){
-  logErrMsg(err, result)
-})
+//connection.query(sql_delete, function(err, result){
+ // logErrMsg(err, result)
+//})
 
 
 //改
 var sql_update = 'UPDATE websites SET name = ?,url = ? WHERE Id = ?';
 var upParams = ['菜鸟移动站', 'https://m.runoob.com',6];
-connection.query(sql_update, upParams,function(err, result){
-  logErrMsg(err, result)
-})
+//connection.query(sql_update, upParams,function(err, result){
+//  logErrMsg(err, result)
+//})
 
 connection.end();
