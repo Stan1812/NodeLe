@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "request": "^2.83.0",
+    "superagent": "^3.7.0"
+  }
+}
