@@ -28,11 +28,32 @@ CREATE TABLE `websites` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `books`;
+CREATE TABLE `books` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` char(20) NOT NULL DEFAULT '' ,
+  `author` varchar(255) NOT NULL DEFAULT '',
+  `classfy` varchar(255) NOT NULL DEFAULT '',
+  `reviews` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+ 
 -- ----------------------------
 --  Records of `websites`
 -- ----------------------------
+
 BEGIN;
 INSERT INTO `websites` VALUES ('1', 'Google', 'https://www.google.cm/', '1', 'USA'), ('2', '淘宝', 'https://www.taobao.com/', '13', 'CN'), ('3', '菜鸟教程', 'http://www.runoob.com/', '4689', 'CN'), ('4', '微博', 'http://weibo.com/', '20', 'CN'), ('5', 'Facebook', 'https://www.facebook.com/', '3', 'USA');
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;
+
+-- CREATE TABLE `books` (
+--   `id` int(11) NOT NULL AUTO_INCREMENT,
+--   `name` char(20) NOT NULL DEFAULT '' ,
+--   `author` varchar(255) NOT NULL DEFAULT '',
+--   `classfy` varchar(255) NOT NULL DEFAULT '0',
+--   `reviews` text,
+--   PRIMARY KEY (`id`)
+-- ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+ 
