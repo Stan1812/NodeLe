@@ -13,7 +13,7 @@ function getUrls() {
     for (var i = 200; i < 210; i++) {
         var tmp = baseUrl + i;
         urls.push(tmp);
-        var dir = './mei/'+i;
+        var dir = './mei/' + i;
         //创建目录
         mkdirp(dir, function (err) {
             if (err) {
@@ -63,7 +63,7 @@ function acquireData(url, data) {
         console.log(imgsrc);
         var filename = parseUrlForFileName(imgsrc); //生成文件名
         downloadImg(imgsrc, filename, './mei/' + list[4], function () {
-            console.log(filename + ' done');``
+            console.log(filename + ' done');
         });
     }
 }
