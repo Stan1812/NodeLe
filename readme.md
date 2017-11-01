@@ -15,107 +15,16 @@
 项目结构为：
 ```
 .
-|-- app.js
-|-- bin
-|   `-- www
-|-- models
-|   `-- user.js
-|-- node_modules
-|   |-- accepts
-|   |-- array-flatten
-|   |-- async
-|   |-- basic-auth
-|   |-- bluebird
-|   |-- body-parser
-|   |-- bson
-|   |-- buffer-shims
-|   |-- bytes
-|   |-- content-disposition
-|   |-- content-type
-|   |-- cookie
-|   |-- cookie-parser
-|   |-- cookie-signature
-|   |-- core-util-is
-|   |-- debug
-|   |-- depd
-|   |-- destroy
-|   |-- ee-first
-|   |-- ejs
-|   |-- encodeurl
-|   |-- es6-promise
-|   |-- escape-html
-|   |-- etag
-|   |-- express
-|   |-- finalhandler
-|   |-- forwarded
-|   |-- fresh
-|   |-- hooks-fixed
-|   |-- http-errors
-|   |-- iconv-lite
-|   |-- inherits
-|   |-- ipaddr.js
-|   |-- isarray
-|   |-- kareem
-|   |-- lodash
-|   |-- media-typer
-|   |-- merge-descriptors
-|   |-- methods
-|   |-- mime
-|   |-- mime-db
-|   |-- mime-types
-|   |-- mongodb
-|   |-- mongodb-core
-|   |-- mongoose
-|   |-- morgan
-|   |-- mpath
-|   |-- mpromise
-|   |-- mquery
-|   |-- ms
-|   |-- muri
-|   |-- negotiator
-|   |-- on-finished
-|   |-- on-headers
-|   |-- parseurl
-|   |-- path-to-regexp
-|   |-- process-nextick-args
-|   |-- proxy-addr
-|   |-- qs
-|   |-- range-parser
-|   |-- raw-body
-|   |-- readable-stream
-|   |-- regexp-clone
-|   |-- require_optional
-|   |-- resolve-from
-|   |-- safe-buffer
-|   |-- semver
-|   |-- send
-|   |-- serve-favicon
-|   |-- serve-static
-|   |-- setprototypeof
-|   |-- sliced
-|   |-- statuses
-|   |-- string_decoder
-|   |-- type-is
-|   |-- unpipe
-|   |-- util-deprecate
-|   |-- utils-merge
-|   `-- vary
-|-- npm-debug.log
-|-- package.json
-|-- package-lock.json
-|-- public
-|   `-- stylesheets
-|-- routes
-|   |-- index.js
-|   `-- users.js
-`-- views
-    |-- error.ejs
-    |-- index.ejs
-    |-- layout.ejs
-    |-- list.ejs
-    |-- listitem.ejs
-    |-- login.ejs
-    `-- post.ejs
+├── app.js
+├── bin
+├── models
+├── node_modules
+├── npm-debug.log
+├── package.json
+├── package-lock.json
+├── public
+├── routes
+└── views
 
 ```
 * nodetests 平时跟着教程所敲的小demo，主要是一些功能
@@ -126,7 +35,7 @@
 
 ```
 
-* nodemysql 学习nodejs连接操作mysql
+* nodemysql: nodejs+mysql
 
 ```
 

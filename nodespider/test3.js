@@ -26,7 +26,7 @@
 
 	class MyEmitter extends EventEmitter {}
 	const event = new MyEmitter()
-
+	
 	event.on('loadItemEnd', () => {
 	  if (task.length) {
 	    loadItem(task.shift())
@@ -42,6 +42,8 @@
 	 * Start
 	 */
 
+
+// 1
 	log('product start')
 
 	if (!fs.existsSync(imgRoot)) {
@@ -65,6 +67,7 @@
 	function loadPage() {
 	  down(URL + page).then(($) => {
 	    log('')
+			// 2
 	    log(`loading page-${page}`)
 
 	    let girls = $('a.zoom') // 列表项集合
@@ -80,7 +83,7 @@
 	        preview: $(e).find('img').attr('src')
 	      })
 	    })
-
+			// 3
 	    log(`filling the ${page}`)
 	    loadItem(task.shift())
 	  })
@@ -100,6 +103,7 @@
 	  let srcs = []
 
 	  log('')
+		// 4
 	  log(`开始检测 ${title}`)
 
 	  // 检测是否存储过当前项
@@ -108,10 +112,11 @@
 	    log('数据已存在')
 	    return
 	  }
-
+		// 5
 	  log(`准备加载 ${title}`)
 
 	  down(url).then(($) => {
+			// 6
 	    log(`准备处理 ${title}`)
 
 	    let imgs = $(`img[alt="${title}"]`)
@@ -125,7 +130,7 @@
 	    pages.each((i, e) => {
 	      pagesUrl.push($(e).attr('href'))
 	    })
-
+			// 7
 	    log(`准备加载分页 ${title}`)
 
 	    Promise.all(pagesUrl.map(e => down(e))).then(result => {
