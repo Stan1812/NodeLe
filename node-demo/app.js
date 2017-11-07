@@ -19,7 +19,6 @@ var db = mongoose.connection;
 // 连接成功
 db.on('open', function(){
     console.log('MongoDB Connection Successed');
-    console.log(db)
 });
 // 连接失败
 db.on('error', function(){

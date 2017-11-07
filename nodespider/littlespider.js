@@ -1,11 +1,12 @@
+//豆瓣
 var request = require("request");
 var cheerio = require("cheerio");
 
 var mysql = require('mysql');
 var connection = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: 'KG1415926535',
+  user: 'nodetest',
+  password: '123456',
   database: 'nodedb'
 });
 
