@@ -19,10 +19,15 @@ router.get('/', function (req, res, next) {
 //   res.send('user:' + req.params.username);
 // })
 router.get('/post', function (req, res) {
-  res.render('post', {
-    title: '文章'
+  Posts.find({}, (err, data) => {
+  //  console.log(data)
+   res.render('post', {
+    title: '文章',
+    items: data
   })
+});
 })
+
 router.post('/post', function (req, res) {
   let postData={
     title:req.body.title,
@@ -91,8 +96,10 @@ router.post('/login', function (req, res) {
     if (data) {
       console.log('login success')
       // res.send('登陆成功');
-    } else {
       res.redirect('/post');
+    }else{
+      console.log('login failed')
+      res.redirect('/login')
     }
   });
   // res.send('doreg success'+ new Date().toString())
