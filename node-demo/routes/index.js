@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var express = require('express');
-var Posts =require('../models/post')
+var Posts = require('../models/post')
 var User = require('../models/user');
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -20,18 +20,18 @@ router.get('/', function (req, res, next) {
 // })
 router.get('/post', function (req, res) {
   Posts.find({}, (err, data) => {
-  //  console.log(data)
-   res.render('post', {
-    title: '文章',
-    items: data
-  })
-});
+    //  console.log(data)
+    res.render('post', {
+      title: '文章',
+      items: data
+    })
+  });
 })
 
 router.post('/post', function (req, res) {
-  let postData={
-    title:req.body.title,
-    content:req.body.content
+  let postData = {
+    title: req.body.title,
+    content: req.body.content
   }
   Posts.findOne({
     title: postData.title
@@ -52,7 +52,7 @@ router.get('/reg', function (req, res) {
   res.render('reg', {
     title: '注册'
   })
-  res.send('get log succ' + new Date().toString())
+  // res.send('get log succ' + new Date().toString())
 })
 router.post('/reg', function (req, res) {
   var postData = {
@@ -78,13 +78,20 @@ router.post('/reg', function (req, res) {
   // res.send('doreg success'+ new Date().toString())
 })
 router.get('/login', function (req, res) {
-  res.render('login', {
-    title: '登录'
-  })
+  console.log('test',req.session.user)
+  if (req.session.user) {
+    res.redirect('/post')
+  } else {
+    res.render('login', {
+      title: '登录'
+    })
+  }
+
   // res.send('get log succ' + new Date().toString())
 })
 router.post('/login', function (req, res) {
   console.log(req.body)
+
   var postData = {
     username: req.body.username,
     password: req.body.password,
@@ -92,12 +99,19 @@ router.post('/login', function (req, res) {
   User.findOne({
     username: postData.username
   }, function (err, data) {
-    console.log(data)
+    console.log('test;', data)
     if (data) {
-      console.log('login success')
-      // res.send('登陆成功');
-      res.redirect('/post');
-    }else{
+      if (data.password = postData.password) {
+       req.session.user=data
+       console.log(req.session.user)
+        console.log('login success')
+        // res.send('登陆成功');
+        res.redirect('/post');
+      } else {
+        console.log('password not matched')
+        res.redirect('/login')
+      }
+    } else {
       console.log('login failed')
       res.redirect('/login')
     }
@@ -105,6 +119,7 @@ router.post('/login', function (req, res) {
   // res.send('doreg success'+ new Date().toString())
 })
 router.get('/logout', function (req, res) {
-  res.send('logout' + new Date().toString())
+  req.session.user=null;
+  res.redirect('/')
 })
 module.exports = router;

@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var session=require('express-session')
 var index = require('./routes/index');
 var users = require('./routes/users');
 
@@ -35,7 +35,21 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.use(session(
+  {
+    secret: 'shady',
+    cookie: {maxAge: 60000 },  //即60s后session和相应的cookie失效过期
+    store: new (require('express-sessions'))({
+        storage: 'mongodb',
+        instance: mongoose, // optional 
+        host: 'localhost', // optional 
+        port: 27017, // optional 
+        db: 'test', // optional 
+        collection: 'sessions', // optional 
+        expire: 86400 // optional 
+    })
+  }
+))
 app.use('/', index);
 app.use('/users', users);
 
