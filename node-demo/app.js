@@ -38,15 +38,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(session(
   {
     secret: 'shady',
-    cookie: {maxAge: 60000 },  //即60s后session和相应的cookie失效过期
+    cookie: {maxAge: 100000 },  //100s后session和相应的cookie失效过期
     store: new (require('express-sessions'))({
         storage: 'mongodb',
-        instance: mongoose, // optional 
-        host: 'localhost', // optional 
-        port: 27017, // optional 
-        db: 'test', // optional 
-        collection: 'sessions', // optional 
-        expire: 86400 // optional 
+        instance: mongoose,
+        host: 'localhost',
+        port: 27017,
+        db: 'test',
+        collection: 'sessions',
+        expire: 86400
     })
   }
 ))
