@@ -29,9 +29,12 @@ router.get('/post', function (req, res) {
 })
 
 router.post('/post', function (req, res) {
+  console.log(req.session.user)
   let postData = {
     title: req.body.title,
-    content: req.body.content
+    content: req.body.content,
+    username:req.session.user.username,
+    postdate:new Date().toString()
   }
   Posts.findOne({
     title: postData.title
@@ -70,6 +73,11 @@ router.post('/reg', function (req, res) {
       // 保存到数据库
       User.create(postData, function (err, data) {
         if (err) throw err;
+        let user={
+          username:postData.username,
+          password:postData.password
+        }
+        req.session.user=user
         console.log('注册成功');
         res.redirect('/login'); // 重定向到所用用户列表
       })

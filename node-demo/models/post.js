@@ -6,6 +6,12 @@ var postschema = new Schema({
     },
     content:{
         type:String
+    },
+    username:{
+        type:String
+    },
+    postdate:{
+        type:String
     }
 })
 module.exports = mongoose.model('posts', postschema);
