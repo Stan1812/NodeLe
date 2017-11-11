@@ -26,7 +26,8 @@ event.on('loadItemEnd', () => {
     } else {
         log('')
         log(`已加载完毕`)
-  
+        // // page++
+        // loadPage()
     }
 })
 
@@ -64,8 +65,10 @@ function loadSumary() {
             // log(heros)
             for (hero in heros) {
                 task.push({
+                    'id': heros,
                     'url': `http://ossweb-img.qq.com/images/lol/img/champion/` + hero + `.png`,
                     'title': heros[hero].name + heros[hero].title,
+                    'skinPath': `/biz/hero/` + hero + `.js`,
                     'imgs': heros[hero].image
                 })
             }
@@ -78,36 +81,68 @@ function loadSumary() {
 }
 
 function loadDetail(obj) {
+    let id = obj.id
     let url = obj.url
     let title = obj.title
+    let skinPath = obj.skinPath
     let urls = []
-    console.log(obj)
+    urls.push({
+        'skinUrl': url,
+        'skinName': '头像'
+    })
     log(`正在检查 ${title}`)
     if (fs.existsSync(path.resolve(imgRoot, title))) {
         event.emit('loadItemEnd')
         log('已存在')
         return
     }
-    urls.push(url)
-    log(`准备加载 ${title}`)
-    save({
-        title: title,
-        urls: urls
-    }, r => {
-        log(`存储完毕 ${title}`)
-        event.emit('loadItemEnd')
-    })
+    let options = {
+        host: 'lol.qq.com',
+        path: skinPath
+    }
+    let callback = function (response) {
+        let body = '';
+        response.on('data', function (data) {
+            body += data;
+        });
+
+        response.on('end', function () {
+            //   console.log(body)
+            let i = body.indexOf('{"data"')
+
+            log('i=', i)
+            body = body.substring(i, body.length - 1)
+            let trans = JSON.parse(body)
+            let skins = trans.data.skins
+            log(skins)
+            for (skin in skins) {
+                urls.push({
+                    'skinUrl': 'http://ossweb-img.qq.com/images/lol/web201310/skin/big' + skins[skin].id + '.jpg',
+                    'skinName': skins[skin].name
+                })
+            }
+            save({
+                title: title,
+                urls: urls
+            }, r => {
+                log(`存储完毕 ${title}`)
+                event.emit('loadItemEnd')
+            })
+        });
+    }
+    let req = http.request(options, callback);
+    req.end();
 }
 
 function save(data, callback) {
     let title = data.title
     let urls = data.urls
-    Promise.all(urls.map(e => down(e, false))).then(result => {
+    Promise.all(urls.map(e => down(e.skinUrl, false))).then(result => {
         var imgPath = path.resolve(imgRoot, title)
         fs.mkdirSync(path.resolve(imgPath))
         log(`开始存储图片 ${title}`)
         result.forEach((e, i) => {
-            fs.writeFileSync(path.resolve(imgPath, `${title}.jpg`), e.body, null)
+            fs.writeFileSync(path.resolve(imgPath, `${i}.jpg`), e.body, null)
         })
         callback && callback()
     })
