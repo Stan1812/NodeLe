@@ -24,10 +24,7 @@ event.on('loadItemEnd', () => {
     if (task.length) {
         loadDetail(task.shift())
     } else {
-        log('')
         log(`已加载完毕`)
-        // // page++
-        // loadPage()
     }
 })
 
@@ -137,7 +134,7 @@ function loadDetail(obj) {
 function save(data, callback) {
     let title = data.title
     let urls = data.urls
-    Promise.all(urls.map(e => down(e.skinUrl, false))).then(result => {
+    Promise.all(urls.map(e => down(e.skinUrl))).then(result => {
         var imgPath = path.resolve(imgRoot, title)
         fs.mkdirSync(path.resolve(imgPath))
         log(`开始存储图片 ${title}`)
@@ -148,8 +145,7 @@ function save(data, callback) {
     })
 }
 
-function down(url, hasProcess = true) {
-    if (hasProcess) {
+function down(url) {
         return new Promise((resolve, reject) => {
             superagent.get(url).end((err, res) => {
                 if (err) reject(err)
@@ -157,12 +153,4 @@ function down(url, hasProcess = true) {
                 log(res)
             })
         })
-    } else {
-        return new Promise((resolve, reject) => {
-            superagent.get(url).end((err, res) => {
-                if (err) reject(err)
-                resolve(res)
-            })
-        })
-    }
 }
