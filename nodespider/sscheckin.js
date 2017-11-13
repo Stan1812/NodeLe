@@ -1,3 +1,5 @@
+//使用linux定时任务Crontab
+//node路径：/root/.nvm/versions/node/v8.8.0/bin/node
 const cheerio = require('cheerio')
 const querystring = require('querystring')
 const http = require('http')
