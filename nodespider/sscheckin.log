@@ -1,0 +1,6 @@
+Mon Nov 13 2017 23:44:36 GMT+0800 (CST):	{"ret":1,"msg":"欢迎回来"}{"server":"nginx/1.4.6 (Ubuntu)","date":"Mon, 13 Nov 2017 15:44:36 GMT","content-type":"text/html; charset=UTF-8","content-length":"75","connection":"close","x-powered-by":"PHP/5.5.9-1ubuntu4.14"}
+{"msg":"您似乎已经签到过了...","ret":1}
+Mon Nov 13 2017 23:44:46 GMT+0800 (CST):	{"ret":1,"msg":"欢迎回来"}{"server":"nginx/1.4.6 (Ubuntu)","date":"Mon, 13 Nov 2017 15:44:46 GMT","content-type":"text/html; charset=UTF-8","content-length":"75","connection":"close","x-powered-by":"PHP/5.5.9-1ubuntu4.14"}
+{"msg":"您似乎已经签到过了...","ret":1}
+Mon Nov 13 2017 23:46:02 GMT+0800 (CST):	{"ret":1,"msg":"欢迎回来"}{"msg":"您似乎已经签到过了...","ret":1}
+Mon Nov 13 2017 23:47:23 GMT+0800 (CST):	{"ret":1,"msg":"欢迎回来"}{"msg":"您似乎已经签到过了...","ret":1}

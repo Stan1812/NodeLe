@@ -1,23 +1,38 @@
 //使用linux定时任务Crontab
-//node路径：/root/.nvm/versions/node/v8.8.0/bin/node
+//* */23 * * * /root/.nvm/versions/node/v8.8.0/bin/node /home/nodetest/NodeLe/nodespider/sscheckin.js
 const cheerio = require('cheerio')
 const querystring = require('querystring')
 const http = require('http')
-
+const fs = require('fs')
 const log = console.log
 const URL = '47.91.149.156'
 
 try {
+    // addlog('test',true)
     log('let\'s start login')
     login()
 } catch (err) {
     log('GG,something is wrong')
 }
 
+function addlog(val, date) {
+    if (date === true) {
+        val = new Date().toString() + ':\t' + val
+    } else {
+        val = val + '\n'
+    }
+    fs.appendFile('sscheckin.log', val, function (err) {
+        if (err) {
+            return console.error(err);
+        }
+        console.log("日志已记录");
+    });
+}
+
 function login() {
     let postData = querystring.stringify({
-        email: 'xxxxxxxxxxxxx',
-        passwd: 'xxxxxxxxxxx'
+        email: 'xxxxxx',
+        passwd: 'xxxxx'
     })
     let options = {
         host: URL,
@@ -32,6 +47,7 @@ function login() {
     let req = http.request(options, (res) => {
         log(`status: ${res.statusCode}`)
         // log(`响应头: ${JSON.stringify(res.headers)}`);
+        // addlog(JSON.stringify(res.headers),true)
         let headers = JSON.stringify(res.headers)
         let cookie = JSON.parse(headers)['set-cookie'][0]
         let i = cookie.indexOf(';')
@@ -40,6 +56,7 @@ function login() {
         res.on('data', (chunk) => {
             chunk = JSON.parse(chunk)
             log(chunk)
+            addlog(JSON.stringify(chunk), true)
         });
         res.on('end', () => {
             log('Login success, ready to checkin')
@@ -66,11 +83,13 @@ function checkin(cookie) {
     let chreq = http.request(checkinOptions, (res) => {
         log(`status: ${res.statusCode}`)
         // log(`响应头: ${JSON.stringify(res.headers)}`);
+        // addlog(JSON.stringify(res.headers),false)
         let headers = JSON.stringify(res.headers)
         res.setEncoding('utf8');
         res.on('data', (chunk) => {
             chunk = JSON.parse(chunk)
             log(chunk)
+            addlog(JSON.stringify(chunk), false)
         });
         res.on('end', () => {
             log('data receiving end')
@@ -79,6 +98,7 @@ function checkin(cookie) {
 
     chreq.on('error', (e) => {
         console.error(`请求遇到问题: ${e}`);
+        addlog(e, true)
     });
     chreq.end();
 }
