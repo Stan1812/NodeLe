@@ -3,4 +3,5 @@ nodemysql/node_modules/*
 nodespider/node_modules/*
 nodetests/node_modules/*
 restfulapi/node_modules/*
+restfulapi/views/*
 microblog-master/
