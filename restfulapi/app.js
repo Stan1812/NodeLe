@@ -4,7 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var express = require('express');
+var jwt = require('jwt-simple');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
@@ -31,6 +32,7 @@ db.on('error', function () {
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.set('jwtTokenSecret', 'whysoserious');
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
