@@ -4,4 +4,22 @@ nodespider/node_modules/*
 nodetests/node_modules/*
 restfulapi/node_modules/*
 restfulapi/views/*
+
 microblog-master/
+.DS_Store
+restfulapi/frontend/node_modules/
+restfulapi/frontend//dist/
+npm-debug.log*
+yarn-debug.log*
+restfulapi/frontend/yarn-error.log*
+restfulapi/frontend/test/*
+
+selenium-debug.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
