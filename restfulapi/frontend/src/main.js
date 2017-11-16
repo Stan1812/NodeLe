@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import VueRouter from 'vue-router';
 import iView from 'iview';
+import axios from 'axios'
+Vue.prototype.$http = axios
 import 'iview/dist/styles/iview.css';
 Vue.use(VueRouter);
 Vue.use(iView);
