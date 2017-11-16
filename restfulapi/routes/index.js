@@ -3,6 +3,7 @@ var router = express.Router();
 // var URL = require('url');
 var Posts = require('../models/post')
 var User = require('../models/user');
+var Comment = require('../models/comment');
 var express = require('express');
 var jwt = require('jwt-simple');
 var secret = 'xxx';
