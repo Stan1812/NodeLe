@@ -26,6 +26,16 @@ request body:
     title:''      //String    
 }
 ```
+- 更新文章 POST /update
+```javascript
+request body:
+{
+    id:1          //Number
+    date: ''      //String
+    content:''     //String
+    title:''      //String    
+}
+```
 - 删除文章 DELETE /delart
 ```JavaScript
 request body:
