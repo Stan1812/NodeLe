@@ -1,7 +1,5 @@
-
 <template>
     <div class="layout">
-
         <Row type="flex">
             <Col span="4" class="layout-menu-left">
                 <Menu active-name="1-2" theme="dark" width="auto" :open-names="['1']">
@@ -48,14 +46,15 @@
                     <div class="layout-content-main">Content</div>
                 </div>
                 <div class="layout-copy">
-                    2011-2016 &copy; TalkingData
+                    2017 &copy; shady
                 </div>
             </Col>
         </Row>
     </div>
 </template>
 <script>
-export default {};
+export default {
+};
 </script>
 <style scoped>
 a{
