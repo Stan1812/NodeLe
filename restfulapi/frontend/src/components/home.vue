@@ -41,7 +41,7 @@
       <mu-menu-item title="Preview" leftIcon="remove_red_eye"/>
       <mu-menu-item title="Get Links" leftIcon="link"/>
       <mu-divider />
-      <mu-menu-item title="登录" @click.native="login" leftIcon="person_add"></mu-menu-item>
+      <mu-menu-item title="登录" @click.native="changeRouter("/login")" leftIcon="person_add"></mu-menu-item>
       <mu-menu-item title="管理"  leftIcon="settings"/>
       <mu-menu-item title="归档" leftIcon="¶"/>
       <mu-menu-item title="分类" leftIcon="§"/>
@@ -76,8 +76,8 @@ export default {
       this.docked = !flag;
     },
     handleClick(newIndex) {},
-    login() {
-      this.$router.push({ path: "/login" });
+    changeRouter(gopath) {
+      this.$router.push({ path: gopath });
     }
   }
 };

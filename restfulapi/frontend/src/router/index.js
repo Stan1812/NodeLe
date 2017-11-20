@@ -3,6 +3,9 @@ import Router from 'vue-router'
 import home from '@/components/home'
 import admin from '@/components/admin.vue'
 import login from '@/components/login.vue'
+import timeline from '@/components/timeline.vue'
+import classify from '@/components/classify.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -18,5 +21,13 @@ export default new Router({
         path: '/login',
         name: 'login',
         component: login
+    }, {
+        path: '/timeline',
+        name: 'timeline',
+        component: timeline
+    }, {
+        path: '/classify',
+        name: 'classify',
+        component: classify
     }]
 })
