@@ -71,8 +71,36 @@
 
 
 ```
+* restfulapi 首次尝试前后端分离
 
+```
+.
+├── app.js
+├── bin
+├── config.js
+├── frontend
+├── models
+├── node_modules
+├── npm-debug.log
+├── package.json
+├── public
+├── readme.md
+├── routes
+```
+其中frontend：
+```
+.
+├── build
+├── config
+├── index.html
+├── node_modules
+├── package.json
+├── README.md
+├── src
+├── static
+└── test
 
+```
 ---
 cd
 好好学习，天天向上！
