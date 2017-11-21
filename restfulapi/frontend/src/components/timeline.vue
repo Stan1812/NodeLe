@@ -1,4 +1,11 @@
 <template>
+<div>
+    <mu-paper>
+    <mu-appbar title="时间轴">
+        <mu-icon-button icon="close" @click.native="goback" slot="left" />
+    </mu-appbar>
+</mu-paper>
+<div id="container">
   <mu-timeline lineColor="black" lineType="dashed">
     <mu-timeline-item iconColor="red" iconType="dotted">
       <span>发布1.0版本</span>
@@ -20,20 +27,27 @@
       <span>发布2.2版本</span>
     </mu-timeline-item>
   </mu-timeline>
+  </div>
+  </div>
 </template>
 <script>
 export default {
-    data(){
-        return{
-
-        }
-    },
-    methods:{
-        
+  data() {
+    return {};
+  },
+  methods: {
+    goback() {
+      this.$router.go(-1);
     }
-}
+  }
+};
 </script>
 
 <style>
-
+#container{
+  width: 80vw;
+  padding-top:5vh; 
+  margin: auto;
+  font-size:18px; 
+} 
 </style>

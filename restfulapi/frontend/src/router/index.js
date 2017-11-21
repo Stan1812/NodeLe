@@ -5,7 +5,7 @@ import admin from '@/components/admin.vue'
 import login from '@/components/login.vue'
 import timeline from '@/components/timeline.vue'
 import classify from '@/components/classify.vue'
-
+import links from '@/components/links.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -29,5 +29,9 @@ export default new Router({
         path: '/classify',
         name: 'classify',
         component: classify
+    }, {
+        path: "/links",
+        name: 'links',
+        component: links
     }]
 })

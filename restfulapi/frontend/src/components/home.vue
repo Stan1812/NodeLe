@@ -39,11 +39,11 @@
          <mu-paper style="display: inline-block; width: 256px;">
       <mu-menu>
       <mu-menu-item title="Preview" leftIcon="remove_red_eye"/>
-      <mu-menu-item title="Get Links" leftIcon="link"/>
+      <mu-menu-item title="Get Links" @click.native="changeRouter('/links')" leftIcon="link"/>
       <mu-divider />
-      <mu-menu-item title="登录" @click.native="changeRouter("/login")" leftIcon="person_add"></mu-menu-item>
-      <mu-menu-item title="管理"  leftIcon="settings"/>
-      <mu-menu-item title="归档" leftIcon="¶"/>
+      <mu-menu-item title="登录" @click.native="changeRouter('/login')" leftIcon="person_add"></mu-menu-item>
+      <mu-menu-item title="管理" @click.native="changeRouter('/admin')" leftIcon="settings"/>
+      <mu-menu-item title="归档"  @click.native="changeRouter('/timeline')" leftIcon="¶"/>
       <mu-menu-item title="分类" leftIcon="§"/>
     </mu-menu>
   </mu-paper>
@@ -90,7 +90,7 @@ export default {
 }
 
 .card {
-  margin: 10px;
+  margin: 20px 25px;
 }
 .main {
   z-index: -1;
