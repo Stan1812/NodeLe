@@ -1,18 +1,21 @@
 <template>
 <div>
 <mu-paper>
-    <mu-appbar title="myblog">
+    <mu-appbar v-show="bottomNav!=='about'" title="myblog">
         <mu-icon-button icon="menu" slot="left" @click="toggle(true)"/>
         <mu-icon-button icon="mudocs-icon-custom-github" slot="right"/>
     </mu-appbar>
     <mu-bottom-nav :value="bottomNav" @change="handleChange">
-        <mu-bottom-nav-item value="recents" title="文章" icon="restore"/>
+        <mu-bottom-nav-item value="articles" title="文章" icon="restore"/>
         <mu-bottom-nav-item value="favorites" title="Favorite" icon="favorite"/>
-        <mu-bottom-nav-item value="nearby" title="关于" icon="location_on"/>
+        <mu-bottom-nav-item value="about" title="关于" icon="location_on"/>
     </mu-bottom-nav>
 </mu-paper>
 <div class="main">
-<div class="card" v-for="item in items">
+  <favorites v-if="bottomNav==='favorites'"> </favorites>
+  <aboutme v-if="bottomNav==='about'"></aboutme>
+<div id="container">
+  <mu-refresh-control :refreshing="refreshing" :trigger="trigger" @refresh="refresh"/><div v-if="bottomNav==='articles'" class="card" v-for="item in items">
   <mu-card>
   <mu-card-media title="Image Title" subTitle="Image Sub Title">
     <img src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103000.jpg" />
@@ -25,8 +28,10 @@
   </mu-card-actions>
 </mu-card>
 </div>
- <mu-pagination :total="total" :current="current" @pageChange="handleClick">
-  </mu-pagination>
+  <mu-infinite-scroll :scroller="scroller" :loadingText="'正在加载'"	 :loading="loading" @load="loadMore"/>
+</div>
+ <!-- <mu-pagination :total="total" :current="current" @pageChange="handleClick">
+  </mu-pagination> -->
     <!-- <mu-back-top bottom="100"/> -->
 </div>
 <div>
@@ -44,7 +49,7 @@
       <mu-menu-item title="登录" @click.native="changeRouter('/login')" leftIcon="person_add"></mu-menu-item>
       <mu-menu-item title="管理" @click.native="changeRouter('/admin')" leftIcon="settings"/>
       <mu-menu-item title="归档"  @click.native="changeRouter('/timeline')" leftIcon="¶"/>
-      <mu-menu-item title="分类" leftIcon="§"/>
+      <mu-menu-item title="分类" @click.native="changeRouter('/classify')"  leftIcon="§"/>
     </mu-menu>
   </mu-paper>
       </mu-list>
@@ -56,21 +61,34 @@
 </template>
 
 <script>
+import favorites from "../components/favorites.vue";
+import aboutme from "../components/aboutme.vue";
+
 export default {
   data() {
     return {
-      bottomNav: "recents",
+      bottomNav: "articles",
       open: false,
       docked: true,
       items: [1, 2, 4, 5],
       total: 50,
-      current: 1
+      current: 1,
+      loading: false,
+      scroller: null,
+      refreshing: false,
+      trigger: null,
+      num: 4
     };
+  },
+  components: {
+    favorites: favorites,
+    aboutme: aboutme
   },
   methods: {
     handleChange(val) {
       this.bottomNav = val;
     },
+
     toggle(flag) {
       this.open = !this.open;
       this.docked = !flag;
@@ -78,7 +96,37 @@ export default {
     handleClick(newIndex) {},
     changeRouter(gopath) {
       this.$router.push({ path: gopath });
+    },
+    loadMore() {
+      this.loading = true;
+      console.log('fuck again')
+      setTimeout(() => {
+        let num = this.items.length;
+        for (let i = num; i < num + 5; i++) {
+          this.items.push(i);
+        }
+        num += 5;
+        this.loading = false;
+      }, 1000);
+    },
+    refresh() {
+      console.log('fuck')
+      this.refreshing = true;
+      setTimeout(() => {
+        let items = [];
+        let num = 0;
+        for (let i = num; i < num + 5; i++) {
+          items.push(i);
+        }
+        this.items = items;
+        num += 5;
+        this.refreshing = false;
+      }, 1000);
     }
+  },
+  mounted() {
+    this.scroller = this.$el;
+    this.trigger = this.$el;
   }
 };
 </script>
@@ -88,7 +136,9 @@ export default {
   position: fixed;
   bottom: 0;
 }
-
+.container{
+  position: relative;
+}
 .card {
   margin: 20px 25px;
 }
