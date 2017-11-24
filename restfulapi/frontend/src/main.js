@@ -8,6 +8,9 @@ import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
 import axios from 'axios'
 import Vuex from 'vuex'
+import VueHtml5Editor from 'vue-html5-editor'
+import options from '../config/editor'
+Vue.use(VueHtml5Editor, options);
 Vue.use(Vuex)
 import store from './vuex/store'
 // console.log(store)
@@ -53,5 +56,7 @@ new Vue({
     el: '#app',
     router,
     template: '<App/>',
-    components: { App }
+    components: {
+        App
+    }
 })

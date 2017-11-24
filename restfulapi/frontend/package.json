@@ -16,6 +16,8 @@
     "iview": "^2.7.3",
     "muse-ui": "^2.1.0",
     "vue": "^2.5.2",
+    "vue-html5-editor": "^1.1.1",
+    "vue-quill-editor": "^2.3.3",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },

@@ -107,7 +107,7 @@ export default {
         }
         num += 5;
         this.loading = false;
-      }, 1000);
+      }, 2000);
     },
     refresh() {
       console.log('fuck')

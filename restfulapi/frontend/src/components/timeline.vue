@@ -4,7 +4,7 @@
     <mu-appbar title="时间轴">
         <mu-icon-button icon="close" @click.native="goback" slot="left" />
     </mu-appbar>
-</mu-paper>
+    </mu-paper>
 <div id="container">
   <mu-timeline lineColor="black" lineType="dashed">
     <mu-timeline-item iconColor="red" iconType="dotted">
