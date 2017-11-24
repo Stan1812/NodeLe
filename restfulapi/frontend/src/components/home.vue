@@ -15,7 +15,8 @@
     <favorites v-if="bottomNav==='favorites'"> </favorites>
     <aboutme v-if="bottomNav==='about'"></aboutme>
     <div id="container">
-      <mu-refresh-control :refreshing="refreshing" :trigger="trigger" @refresh="refresh"/><div v-if="bottomNav==='articles'" class="card" v-for="item in items">
+      <mu-refresh-control :refreshing="refreshing" :trigger="trigger" @refresh="refresh"/>
+      <div v-if="bottomNav==='articles'" class="card" v-for="item in items">
       <mu-card>
           <mu-card-media title="Image Title" subTitle="Image Sub Title">
             <img src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103000.jpg" />

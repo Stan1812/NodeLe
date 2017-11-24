@@ -26,9 +26,9 @@ export default {
     return {
       username: "",
       password: "",
-      email:'',
-      islogin:true,
-      title:"登录"
+      email: "",
+      islogin: true,
+      title: "登录"
     };
   },
   methods: {
@@ -36,8 +36,8 @@ export default {
       this.$router.go(-1);
     },
     login() {
-      this.islogin=true
-      this.title="登录"
+      this.islogin = true;
+      this.title = "登录";
       // this.$http
       //   .get()
       //   .then(res => {
@@ -48,8 +48,8 @@ export default {
       //   });
     },
     forgetPasswd() {
-      this.islogin=false
-      this.title="找回密码"
+      this.islogin = false;
+      this.title = "找回密码";
       // this.$http
       //   .get()
       //   .then()
@@ -59,7 +59,9 @@ export default {
 };
 </script>
 <style>
-#login ,#refound,#control{
+#login,
+#refound,
+#control {
   border: 2px;
   padding: 30px;
   text-align: center;

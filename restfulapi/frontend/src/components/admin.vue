@@ -43,8 +43,8 @@ export default {
       content: "",
       input: "# hello",
       activeTab: "newart",
-      artList:'',
-      artTitle:''
+      artList: "",
+      artTitle: ""
     };
   },
   computed: {
@@ -125,7 +125,8 @@ textarea,
 code {
   color: #42b983;
 }
-#baseinfo,#commit{
+#baseinfo,
+#commit {
   margin: 10px;
   text-align: center;
 }

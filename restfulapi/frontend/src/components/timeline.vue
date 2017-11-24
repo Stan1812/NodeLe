@@ -44,10 +44,10 @@ export default {
 </script>
 
 <style>
-#container{
+#container {
   width: 80vw;
-  padding-top:5vh; 
+  padding-top: 5vh;
   margin: auto;
-  font-size:18px; 
-} 
+  font-size: 18px;
+}
 </style>
