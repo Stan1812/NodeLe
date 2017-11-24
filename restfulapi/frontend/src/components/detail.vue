@@ -5,13 +5,15 @@
           <mu-icon-button icon="close" @click.native="goback" slot="left" />
       </mu-appbar>
     </mu-paper>
-   <mu-card>
+    <mu-card>
 
-    <mu-card-title title="Content Title" subTitle="Content Title"/>
-    <mu-card-text>
-  </mu-card-text>
+        <mu-card-title title="Content Title" subTitle="Content Title"/>
+        <mu-card-text>
+
+
+        </mu-card-text>
  
-</mu-card>
+    </mu-card>
   <div id="comments">
      <div v-for="(comment,index) in comments">
         <mu-paper class="demo-paper" :zDepth="1"> 
@@ -66,8 +68,7 @@ export default {
       });
       console.log(jsonData);
       this.$http
-        .post("/xxxxxxxxx", jsonData
-        )
+        .post("/xxxxxxxxx", jsonData)
         .then(response => {
           if (response.body.status) {
             // success
