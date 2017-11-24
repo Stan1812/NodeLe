@@ -8,7 +8,6 @@
     <div id="login" v-show="islogin">
         <mu-text-field label="用户名" v-model="username" hintText="username"/><br/>
        <mu-text-field label="密码" v-model="password" hintText="请输入密码" type="password" labelFloat/><br/>
-  
     </div>
     <div id="refound" v-show="!islogin">
        <mu-text-field label="用户名" v-model="username" hintText="username"/><br/>
