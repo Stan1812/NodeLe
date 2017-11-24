@@ -8,6 +8,7 @@ import classify from '@/components/classify.vue'
 import links from '@/components/links.vue'
 import favorites from '@/components/favorites.vue'
 import aboutme from '@/components/aboutme.vue'
+import detail from '@/components/detail.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -44,6 +45,10 @@ export default new Router({
             path: "/aboutme",
             name: 'aboutme',
             component: aboutme
+        }, {
+            path: "/detail",
+            name: '/detail',
+            component: detail
         }
     ]
 })
