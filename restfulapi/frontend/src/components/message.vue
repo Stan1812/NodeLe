@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <mu-raised-button label="上面弹出" @click="open()"/> -->
     <div id="messageBox">
       <div id="mesContent">
         {{message}} 
