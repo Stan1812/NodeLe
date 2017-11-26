@@ -1,5 +1,7 @@
 <template>
 <div>
+  <messagebox v-show="sendMes" :message="mesContent"></messagebox>
+
   <mu-paper>
     <mu-appbar :title="title">
         <mu-icon-button icon="close" @click.native="goback" slot="left" />
@@ -21,6 +23,8 @@
 </template>
 
 <script>
+import messagebox from "./message";
+const sendMessage = messagebox.methods.sendMessage;
 export default {
   data() {
     return {
@@ -28,8 +32,13 @@ export default {
       password: "",
       email: "",
       islogin: true,
-      title: "登录"
+      title: "登录",
+      mesContent: "",
+      sendMes: false
     };
+  },
+  components: {
+    messagebox: messagebox
   },
   methods: {
     goback() {
@@ -46,6 +55,7 @@ export default {
       //   .catch(err => {
       //     console.log(err);
       //   });
+      sendMessage(this, "登录成功");
     },
     forgetPasswd() {
       this.islogin = false;

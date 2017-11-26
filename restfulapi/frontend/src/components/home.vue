@@ -78,7 +78,7 @@ export default {
   },
   components: {
     favorites: favorites,
-    aboutme: aboutme
+    aboutme: aboutme,
   },
   methods: {
     handleChange(val) {
