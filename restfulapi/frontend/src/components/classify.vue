@@ -64,7 +64,7 @@ export default {
   },
   mounted() {
     // this.getKind();
-    console.log(store);
+    // console.log(store);
   }
 };
 </script>

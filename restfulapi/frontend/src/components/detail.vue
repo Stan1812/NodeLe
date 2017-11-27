@@ -77,7 +77,7 @@ export default {
           }
         })
         .catch(error => {
-          console.log("wrong");
+          console.log(error);
         });
     }
   },

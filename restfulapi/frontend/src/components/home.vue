@@ -41,7 +41,6 @@
         <mu-list @itemClick="docked ? '' : toggle()">
           <mu-paper style="display: inline-block; width: 256px;">
             <mu-menu>
-              <mu-menu-item title="Preview" leftIcon="remove_red_eye"/>
               <mu-menu-item title="Get Links" @click.native="changeRouter('/links')" leftIcon="link"/>
               <mu-divider />
               <mu-menu-item title="登录" @click.native="changeRouter('/login')" leftIcon="person_add"></mu-menu-item>
