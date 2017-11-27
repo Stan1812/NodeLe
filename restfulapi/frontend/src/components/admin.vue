@@ -29,6 +29,8 @@
       <div id="commit">
           <mu-raised-button v-show="isNew===true" label="发表" @click.native="artPublish" class="demo-raised-button" primary/>          
           <mu-raised-button v-show="isNew===false" label="更新" @click.native="artUpdate" class="demo-raised-button" primary/>
+          <mu-raised-button v-show="isNew===false" label="取消更新" @click.native="cancelUp" class="demo-raised-button" primary/>
+          
       </div>
   </div>
 
@@ -175,6 +177,10 @@ export default {
           log(error);
         });
       this.isNew = false;
+    },
+    cancelUp(){
+      this.isNew=true
+      this.input=''
     },
     handleTabChange(val) {
       this.activeTab = val;
