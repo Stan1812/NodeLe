@@ -62,7 +62,6 @@
 </div>
 </template>
 <script>
-import posts from "./posts";
 import messagebox from "./message";
 import store from '../vuex/store'
 
