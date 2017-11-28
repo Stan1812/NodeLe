@@ -27,7 +27,7 @@ export default {
   background: url("http://ossweb-img.qq.com/images/lol/web201310/skin/big22009.jpg")
     no-repeat center center;
   min-width: 100vw;
-  min-height: 85vh;
+  min-height: 83vh;
   background-size: cover;
   display: flex;
   flex-direction: column-reverse;

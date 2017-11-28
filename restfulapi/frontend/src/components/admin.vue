@@ -147,17 +147,17 @@ export default {
         content: this.input
       };
       log(postData);
-      this.$http
-        .put(url, { data: postData })
-        .then(response => {
-          if (response.status === 1) {
-            log("发表成功");
-          }
-        })
-        .catch(error => {
-          log(error);
-        });
-      log(this.input);
+      // this.$http
+      //   .put(url, { data: postData })
+      //   .then(response => {
+      //     if (response.status === 1) {
+      //       log("发表成功");
+      //     }
+      //   })
+      //   .catch(error => {
+      //     log(error);
+      //   });
+      // log(this.input);
     },
     artUpdate() {
       var self=this

@@ -1,25 +1,21 @@
 <<template>
   <div>
     <mu-paper>
-      <mu-appbar title="Content Title">
+      <mu-appbar :title="artTitle">
           <mu-icon-button icon="close" @click.native="goback" slot="left" />
       </mu-appbar>
     </mu-paper>
     <mu-card>
-
-        <mu-card-title title="Content Title" subTitle="Content Title"/>
         <mu-card-text>
-
-
+          <div v-html="compiledMarkdown" ></div>
         </mu-card-text>
- 
     </mu-card>
-  <div id="comments">
+  <div id="comments" v-show="comments.length!==0">
      <div v-for="(comment,index) in comments">
-        <mu-paper class="demo-paper" :zDepth="1"> 
-          <mu-sub-header>title</mu-sub-header>
+        <mu-paper class="userComment" :zDepth="1"> 
+          <mu-sub-header>{{comment.email}}</mu-sub-header>
           <mu-content-block>
-              这件错事折磨着阿狸，她无法原谅自己，一种深深的悲伤让她怀疑自己的本质。她躲进了森林中的洞穴，与世隔绝，希望能够控制自己残忍的欲望。几年以后，她再次现身于世，现在的她决心只靠自己的双眼去体验生命的每一种滋味。虽
+            {{comment.content}}
            </mu-content-block>
         </mu-paper>
      </div > 
@@ -38,13 +34,36 @@
 </template>
 
 <script>
+import store from "../vuex/store.js";
 export default {
   data() {
     return {
-      comments: [1, 2, 3, 4, 5],
+      artTitle: "Something is wrong",
+      //  when something is wrong, default content will show
+      content: `# Hi boddy
+--- 
+### Here is forfun
+*a personal blog system powered by VueJS & NodeJS*   
+
+now just start writing and enjoy it.`,
+      comments: [
+        {
+          email: "2314980309@qq.com",
+          content: "Something is wrong . So you can see this page"
+        },
+        {
+          email: "000001@.qqcom",
+          content: "VUeJS牛逼！nodejs牛逼！"
+        }
+      ],
       useremail: "",
       usercomment: ""
     };
+  },
+  computed: {
+    compiledMarkdown: function() {
+      return marked(this.content, { sanitize: true });
+    }
   },
   methods: {
     goback() {
@@ -83,6 +102,7 @@ export default {
   },
   mounted() {
     // this.getComments()
+    console.log(store.state.currentId);
   }
 };
 </script>
@@ -90,5 +110,12 @@ export default {
 <style>
 #comment {
   text-align: center;
+  margin: 20px 0;
+}
+.mu-raised-button {
+  margin-bottom: 20px;
+}
+.userComment,#comment{
+  margin:20px 10px;
 }
 </style>
