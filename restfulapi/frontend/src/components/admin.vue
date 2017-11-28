@@ -64,6 +64,8 @@
 <script>
 import posts from "./posts";
 import messagebox from "./message";
+import store from '../vuex/store'
+
 const sendMessage = messagebox.methods.sendMessage;
 const log = console.log;
 export default {
@@ -188,6 +190,14 @@ export default {
   },
   mounted() {
     //this.getArticle()
+    console.log(store.state.token)
+    if(store.state.token){
+      console.log("welceome")
+    }else
+    {
+      console.log("fuck you, goaway")
+      this.$router.push({path:'/login'})
+    }
   }
 };
 </script>
