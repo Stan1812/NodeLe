@@ -43,8 +43,9 @@
             <mu-menu>
               <mu-menu-item title="Get Links" @click.native="changeRouter('/links')" leftIcon="link"/>
               <mu-divider />
-              <mu-menu-item title="登录" @click.native="changeRouter('/login')" leftIcon="person_add"></mu-menu-item>
-              <mu-menu-item title="管理" @click.native="changeRouter('/admin')" leftIcon="settings"/>
+              <mu-menu-item title="登录" @click.native="changeRouter('/login')" leftIcon="person_add"/>
+              <!-- 测试用 -->
+              <!-- <mu-menu-item title="管理" @click.native="changeRouter('/admin')" leftIcon="settings"/> -->
               <mu-menu-item title="归档"  @click.native="changeRouter('/timeline')" leftIcon="¶"/>
               <mu-menu-item title="分类" @click.native="changeRouter('/classify')"  leftIcon="§"/>
             </mu-menu>
