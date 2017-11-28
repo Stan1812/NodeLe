@@ -1,4 +1,4 @@
-# y
+# ForFun
 
 > A Vue.js project
 

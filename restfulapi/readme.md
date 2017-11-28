@@ -12,16 +12,26 @@ request body:
 ```
 - 获取文章列表 GET /articles
 ```javascript
+//列表部分只包括文章title subtitle id
 params:
 {
     page:1        //Number
 }
 ```
+- 获取文章详情 GET /article?articleid=
+```javascript
+params:
+{
+    articleid:1        //Number
+}
+```
+
 - 发表文章 PUT /newarticle
 ```javascript
 request body:
 {
     date: ''      //String
+    subtitle:''    //String
     content:''     //String
     title:''      //String    
 }
@@ -30,7 +40,7 @@ request body:
 ```javascript
 request body:
 {
-    id:1          //Number
+    artcleid:1          //Number
     date: ''      //String
     content:''     //String
     title:''      //String    
@@ -40,7 +50,7 @@ request body:
 ```JavaScript
 request body:
 {
-   id:1         //Number   
+   artcleid:1         //Number   
 }
 ```
 - 发表评论 PUT  /comment
@@ -61,3 +71,11 @@ request body:
 }
 ```
 //貌似就这些吧，想到再加
+
+---
+2017/11/28
+
+前端基本上撸完了，马上要开始做一个项目，后端部分可能要拖一拖了 ==。
+
+---
+
