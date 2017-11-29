@@ -1,7 +1,7 @@
-<<template>
+<template>
   <div>
     <mu-paper>
-      <mu-appbar :title="artTitle">
+      <mu-appbar :title="currentId">
           <mu-icon-button icon="close" @click.native="goback" slot="left" />
       </mu-appbar>
     </mu-paper>
@@ -18,7 +18,7 @@
             {{comment.content}}
            </mu-content-block>
         </mu-paper>
-     </div > 
+     </div >
   </div>
   <div id="comment">
       <mu-paper class="demo-paper" :zDepth="2">
@@ -52,7 +52,7 @@ now just start writing and enjoy it.`,
           content: "Something is wrong . So you can see this page"
         },
         {
-          email: "000001@.qqcom",
+          email: "000001@qq.com",
           content: "VUeJS牛逼！nodejs牛逼！"
         }
       ],
@@ -63,6 +63,9 @@ now just start writing and enjoy it.`,
   computed: {
     compiledMarkdown: function() {
       return marked(this.content, { sanitize: true });
+    },
+    currentId(){
+      return store.state.currentId.toString()
     }
   },
   methods: {
@@ -102,6 +105,11 @@ now just start writing and enjoy it.`,
   },
   mounted() {
     // this.getComments()
+    let Id =localStorage.getItem('currentId')
+    if(Id){
+      let Id =localStorage.getItem('currentId')
+      store.commit('getdetail',{currentId:Id})
+    }
     console.log(store.state.currentId);
   }
 };
@@ -115,7 +123,8 @@ now just start writing and enjoy it.`,
 .mu-raised-button {
   margin-bottom: 20px;
 }
-.userComment,#comment{
-  margin:20px 10px;
+.userComment,
+#comment {
+  margin: 20px 10px;
 }
 </style>
