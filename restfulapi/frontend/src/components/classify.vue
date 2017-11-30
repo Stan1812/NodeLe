@@ -76,8 +76,8 @@ export default {
   border-radius: 15px;
 }
 .mu-chip {
-  background-color: #b192e8;
-  color: aliceblue;
+  background-color: #b192e8 !important;
+  color: aliceblue !important;
   margin: 8px;
   text-align: center;
 }
