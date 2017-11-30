@@ -64,7 +64,7 @@
 <script>
 import messagebox from "./message";
 import store from '../vuex/store'
-
+import marked from 'marked'
 const sendMessage = messagebox.methods.sendMessage;
 const log = console.log;
 export default {
@@ -201,7 +201,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 html,
 body,
 #editor {
@@ -248,11 +248,12 @@ code {
   display: flex;
   justify-content: space-around;
 }
-.mu-card {
+/* .mu-card {
   margin: 10px;
-}
+} */
 .list-item {
   transition: all 1s;
+  margin:10px;
 }
 .list-enter-active,
 .list-leave-active {

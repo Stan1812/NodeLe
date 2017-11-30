@@ -43,7 +43,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #container {
   width: 80vw;
   padding-top: 5vh;

@@ -134,9 +134,9 @@ export default {
 };
 </script>
 <style>
-.mu-bottom-nav {
+  .mu-bottom-nav {
   z-index: 10;
-  position: fixed;
+  position: fixed !important;
   bottom: 0;
 }
 .container {
