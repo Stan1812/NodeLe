@@ -32,8 +32,9 @@
 </div>
 
 </template>
-
 <script>
+import marked from 'marked'
+
 import store from "../vuex/store.js";
 export default {
   data() {
@@ -121,7 +122,7 @@ now just start writing and enjoy it.`,
   margin: 20px 0;
 }
 .mu-raised-button {
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 .userComment,
 #comment {
