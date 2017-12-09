@@ -20,6 +20,8 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     clientLogLevel: 'warning',
     historyApiFallback: true,
     hot: true,
+    // 为什么改成0.0.0.0就可以呢？？？很不理解。。。
+    // 根本还是不会webpack啊 ==
     // host: process.env.HOST || config.dev.host,
     host:'0.0.0.0',
     port: process.env.PORT || config.dev.port,
