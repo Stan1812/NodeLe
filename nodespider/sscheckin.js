@@ -31,8 +31,8 @@ function addlog(val, date) {
 
 function login() {
   let postData = querystring.stringify({
-    email: 'XXXXXXXXXX',
-    passwd: 'XXXXXXX'
+    email: '2314980309@qq.com',
+    passwd: 'KG1415926535'
   })
   let options = {
     host: URL,
