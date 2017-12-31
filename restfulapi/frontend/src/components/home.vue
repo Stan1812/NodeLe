@@ -94,6 +94,8 @@ export default {
       this.$router.push({ path: gopath });
     },
     godetail(index){
+      // 解决vuex在页面刷新之后内容消失
+      localStorage.setItem('currentId',index)
       store.commit('getdetail',{currentId:index})
       console.log(index)
       this.changeRouter('/detail')
@@ -132,9 +134,9 @@ export default {
 };
 </script>
 <style>
-.mu-bottom-nav {
+  .mu-bottom-nav {
   z-index: 10;
-  position: fixed;
+  position: fixed !important;
   bottom: 0;
 }
 .container {
